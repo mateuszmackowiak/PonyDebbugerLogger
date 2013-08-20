@@ -8,11 +8,11 @@ PODS:
   - SocketRocket (0.3.1-beta2)
 
 DEPENDENCIES:
-  - PonyDebuggerLogger (from `~/Documents/projects/Xcode/PonyDebuggerLogger`)
+  - PonyDebuggerLogger (from `~/Documents/projects/Xcode/PonyDebuggerLogger/PonyDebuggerLogger.podspec`)
 
 EXTERNAL SOURCES:
   PonyDebuggerLogger:
-    :path: ~/Documents/projects/Xcode/PonyDebuggerLogger
+    :podspec: ~/Documents/projects/Xcode/PonyDebuggerLogger/PonyDebuggerLogger.podspec
 
 SPEC CHECKSUMS:
   CocoaLumberjack: d73e1e317ced14ab930797dda6c17156ff17aaa1

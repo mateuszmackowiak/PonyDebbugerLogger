@@ -1,1 +1,1 @@
-../../../Source/PonyDebuggerLogger.h
+../../PonyDebuggerLogger/Source/PonyDebuggerLogger.h
