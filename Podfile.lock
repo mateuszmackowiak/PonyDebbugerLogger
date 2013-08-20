@@ -2,15 +2,22 @@ PODS:
   - CocoaLumberjack (1.6.2)
   - PonyDebugger (0.3.0):
     - SocketRocket
+  - PonyDebuggerLogger (0.0.1):
+    - CocoaLumberjack
+    - PonyDebugger
   - SocketRocket (0.3.1-beta2)
 
 DEPENDENCIES:
-  - CocoaLumberjack
-  - PonyDebugger
+  - PonyDebuggerLogger (from `~/Documents/projects/Xcode/PonyDebuggerLogger`)
+
+EXTERNAL SOURCES:
+  PonyDebuggerLogger:
+    :path: ~/Documents/projects/Xcode/PonyDebuggerLogger
 
 SPEC CHECKSUMS:
   CocoaLumberjack: d73e1e317ced14ab930797dda6c17156ff17aaa1
   PonyDebugger: bafc25809ade389d0d1c1f1147877145cc26bd78
+  PonyDebuggerLogger: dc9f420aad5c347cc70db43ed155fbc6c4549f13
   SocketRocket: 7ac946bcce46287a791dfff3c1f8daa692821dae
 
 COCOAPODS: 0.19.1

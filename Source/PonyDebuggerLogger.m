@@ -69,8 +69,6 @@ static PonyDebuggerLogger * sharedInstance;
             return @"warn";
         case LOG_FLAG_INFO:
             return @"info";
-        case LOG_FLAG_VERBOSE:
-            return @"log";
         default:
             return @"debug";
     }

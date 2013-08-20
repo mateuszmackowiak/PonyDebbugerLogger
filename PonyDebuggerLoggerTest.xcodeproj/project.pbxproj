@@ -20,7 +20,6 @@
 		9A3E44D117C3EF6300EBF85D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3E44CF17C3EF6300EBF85D /* MainStoryboard_iPhone.storyboard */; };
 		9A3E44D417C3EF6300EBF85D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3E44D217C3EF6300EBF85D /* MainStoryboard_iPad.storyboard */; };
 		9A3E44D717C3EF6300EBF85D /* MMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3E44D617C3EF6300EBF85D /* MMViewController.m */; };
-		9A882ACA17C3F84800A7321A /* PonyDebuggerLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A882AC917C3F84800A7321A /* PonyDebuggerLogger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,8 +42,6 @@
 		9A3E44D317C3EF6300EBF85D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		9A3E44D517C3EF6300EBF85D /* MMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMViewController.h; sourceTree = "<group>"; };
 		9A3E44D617C3EF6300EBF85D /* MMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMViewController.m; sourceTree = "<group>"; };
-		9A882AC817C3F84800A7321A /* PonyDebuggerLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PonyDebuggerLogger.h; path = Source/PonyDebuggerLogger.h; sourceTree = "<group>"; };
-		9A882AC917C3F84800A7321A /* PonyDebuggerLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PonyDebuggerLogger.m; path = Source/PonyDebuggerLogger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +62,6 @@
 		9A3E44AB17C3EF6300EBF85D = {
 			isa = PBXGroup;
 			children = (
-				9A882AC717C3F7F200A7321A /* PonyDebugger */,
 				9A3E44BD17C3EF6300EBF85D /* PonyDebuggerLoggerTest */,
 				9A3E44B617C3EF6300EBF85D /* Frameworks */,
 				9A3E44B517C3EF6300EBF85D /* Products */,
@@ -118,15 +114,6 @@
 				9A3E44CD17C3EF6300EBF85D /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9A882AC717C3F7F200A7321A /* PonyDebugger */ = {
-			isa = PBXGroup;
-			children = (
-				9A882AC817C3F84800A7321A /* PonyDebuggerLogger.h */,
-				9A882AC917C3F84800A7321A /* PonyDebuggerLogger.m */,
-			);
-			name = PonyDebugger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +220,6 @@
 				9A3E44C417C3EF6300EBF85D /* main.m in Sources */,
 				9A3E44C817C3EF6300EBF85D /* MMAppDelegate.m in Sources */,
 				9A3E44D717C3EF6300EBF85D /* MMViewController.m in Sources */,
-				9A882ACA17C3F84800A7321A /* PonyDebuggerLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

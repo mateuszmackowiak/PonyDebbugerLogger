@@ -18,6 +18,12 @@
 #define COCOAPODS_VERSION_MINOR_PonyDebugger 3
 #define COCOAPODS_VERSION_PATCH_PonyDebugger 0
 
+// PonyDebuggerLogger
+#define COCOAPODS_POD_AVAILABLE_PonyDebuggerLogger
+#define COCOAPODS_VERSION_MAJOR_PonyDebuggerLogger 0
+#define COCOAPODS_VERSION_MINOR_PonyDebuggerLogger 0
+#define COCOAPODS_VERSION_PATCH_PonyDebuggerLogger 1
+
 // SocketRocket
 #define COCOAPODS_POD_AVAILABLE_SocketRocket
 #define COCOAPODS_VERSION_MAJOR_SocketRocket 0
