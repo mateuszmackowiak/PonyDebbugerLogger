@@ -23,7 +23,7 @@ A bridge between [CocoaLumberjack](https://github.com/robbiehanson/CocoaLumberja
 
 ```
 
-## Instalatorka
+## Installation
 
 I recommended to use [CocoaPods](http://cocoapods.org/) as a way to get the library.
 
