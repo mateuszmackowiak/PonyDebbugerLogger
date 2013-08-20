@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDCSSDomain.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDCSSDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSDomain.h</DeclaredIn>
+			
+			<NodeRef refid="16"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDCSSDomain/setDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;PDCSSCommandDelegate,PDCommandDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDCSSDomain/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;PDCSSCommandDelegate,PDCommandDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDCSSDomain/mediaQueryResultChanged</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)mediaQueryResultChanged</Declaration>
+			
+			
+			<Anchor>//api/name/mediaQueryResultChanged</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDCSSDomain/styleSheetChangedWithStyleSheetId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)styleSheetChangedWithStyleSheetId:(NSString *)styleSheetId</Declaration>
+			
+			
+			<Anchor>//api/name/styleSheetChangedWithStyleSheetId:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDCSSDomain/namedFlowCreatedWithDocumentNodeId:namedFlow:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)namedFlowCreatedWithDocumentNodeId:(NSNumber *)documentNodeId namedFlow:(NSString *)namedFlow</Declaration>
+			
+			
+			<Anchor>//api/name/namedFlowCreatedWithDocumentNodeId:namedFlow:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDCSSDomain/namedFlowRemovedWithDocumentNodeId:namedFlow:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)namedFlowRemovedWithDocumentNodeId:(NSNumber *)documentNodeId namedFlow:(NSString *)namedFlow</Declaration>
+			
+			
+			<Anchor>//api/name/namedFlowRemovedWithDocumentNodeId:namedFlow:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

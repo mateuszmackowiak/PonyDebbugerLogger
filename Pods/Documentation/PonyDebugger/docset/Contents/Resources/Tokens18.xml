@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDCSSNamedFlow.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDCSSNamedFlow</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>
+			
+			<NodeRef refid="18"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDCSSNamedFlow/setDocumentNodeId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *documentNodeId</Declaration>
+			
+			
+			<Anchor>//api/name/documentNodeId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDCSSNamedFlow/documentNodeId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *documentNodeId</Declaration>
+			
+			
+			<Anchor>//api/name/documentNodeId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDCSSNamedFlow/setName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDCSSNamedFlow/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDCSSNamedFlow/setOverset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *overset</Declaration>
+			
+			
+			<Anchor>//api/name/overset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDCSSNamedFlow/overset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *overset</Declaration>
+			
+			
+			<Anchor>//api/name/overset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDCSSNamedFlow/setContent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSArray *content</Declaration>
+			
+			
+			<Anchor>//api/name/content</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDCSSNamedFlow/content</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSArray *content</Declaration>
+			
+			
+			<Anchor>//api/name/content</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDCSSNamedFlow/setRegions:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSArray *regions</Declaration>
+			
+			
+			<Anchor>//api/name/regions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDCSSNamedFlow/regions</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSArray *regions</Declaration>
+			
+			
+			<Anchor>//api/name/regions</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDMemoryNodeCount.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDMemoryNodeCount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDMemoryTypes.h</DeclaredIn>
+			
+			<NodeRef refid="69"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDMemoryNodeCount/setNodeName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDMemoryTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *nodeName</Declaration>
+			
+			
+			<Anchor>//api/name/nodeName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDMemoryNodeCount/nodeName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDMemoryTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *nodeName</Declaration>
+			
+			
+			<Anchor>//api/name/nodeName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDMemoryNodeCount/setCount:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDMemoryTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *count</Declaration>
+			
+			
+			<Anchor>//api/name/count</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDMemoryNodeCount/count</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDMemoryTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *count</Declaration>
+			
+			
+			<Anchor>//api/name/count</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

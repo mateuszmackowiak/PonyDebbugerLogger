@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/PDDOMStorageCommandDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/PDDOMStorageCommandDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMStorageDomain.h</DeclaredIn>
+			
+			<NodeRef refid="126"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDDOMStorageCommandDelegate/domain:enableWithCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMStorageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDDOMStorageDomain *)domain enableWithCallback:(void ( ^ ) ( id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:enableWithCallback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDDOMStorageCommandDelegate/domain:disableWithCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMStorageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDDOMStorageDomain *)domain disableWithCallback:(void ( ^ ) ( id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:disableWithCallback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDDOMStorageCommandDelegate/domain:getDOMStorageEntriesWithStorageId:callback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMStorageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDDOMStorageDomain *)domain getDOMStorageEntriesWithStorageId:(NSString *)storageId callback:(void ( ^ ) ( NSArray *entries , id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:getDOMStorageEntriesWithStorageId:callback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDDOMStorageCommandDelegate/domain:setDOMStorageItemWithStorageId:key:value:callback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMStorageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDDOMStorageDomain *)domain setDOMStorageItemWithStorageId:(NSString *)storageId key:(NSString *)key value:(NSString *)value callback:(void ( ^ ) ( NSNumber *success , id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:setDOMStorageItemWithStorageId:key:value:callback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDDOMStorageCommandDelegate/domain:removeDOMStorageItemWithStorageId:key:callback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMStorageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDDOMStorageDomain *)domain removeDOMStorageItemWithStorageId:(NSString *)storageId key:(NSString *)key callback:(void ( ^ ) ( NSNumber *success , id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:removeDOMStorageItemWithStorageId:key:callback:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

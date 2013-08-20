@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDDebugger.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDDebugger</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebugger.h</DeclaredIn>
+			
+			<NodeRef refid="41"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PDDebugger/defaultInstance</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebugger.h</DeclaredIn>			
+			
+			<Declaration>+ (PDDebugger *)defaultInstance</Declaration>
+			
+			
+			<Anchor>//api/name/defaultInstance</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/domainForName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebugger.h</DeclaredIn>			
+			
+			<Declaration>- (id)domainForName:(NSString *)name</Declaration>
+			
+			
+			<Anchor>//api/name/domainForName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/sendEventWithName:parameters:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebugger.h</DeclaredIn>			
+			
+			<Declaration>- (void)sendEventWithName:(NSString *)string parameters:(id)params</Declaration>
+			
+			
+			<Anchor>//api/name/sendEventWithName:parameters:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/autoConnect</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebugger.h</DeclaredIn>			
+			
+			<Declaration>- (void)autoConnect</Declaration>
+			
+			
+			<Anchor>//api/name/autoConnect</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/autoConnectToBonjourServiceNamed:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebugger.h</DeclaredIn>			
+			
+			<Declaration>- (void)autoConnectToBonjourServiceNamed:(NSString *)serviceName</Declaration>
+			
+			
+			<Anchor>//api/name/autoConnectToBonjourServiceNamed:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/connectToURL:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebugger.h</DeclaredIn>			
+			
+			<Declaration>- (void)connectToURL:(NSURL *)url</Declaration>
+			
+			
+			<Anchor>//api/name/connectToURL:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/isConnected</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebugger.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)isConnected</Declaration>
+			
+			
+			<Anchor>//api/name/isConnected</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/disconnect</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebugger.h</DeclaredIn>			
+			
+			<Declaration>- (void)disconnect</Declaration>
+			
+			
+			<Anchor>//api/name/disconnect</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/enableNetworkTrafficDebugging</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebugger.h</DeclaredIn>			
+			
+			<Declaration>- (void)enableNetworkTrafficDebugging</Declaration>
+			
+			
+			<Anchor>//api/name/enableNetworkTrafficDebugging</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/forwardAllNetworkTraffic</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebugger.h</DeclaredIn>			
+			
+			<Declaration>- (void)forwardAllNetworkTraffic</Declaration>
+			
+			
+			<Anchor>//api/name/forwardAllNetworkTraffic</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/forwardNetworkTrafficFromDelegateClass:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebugger.h</DeclaredIn>			
+			
+			<Declaration>- (void)forwardNetworkTrafficFromDelegateClass:(Class)cls</Declaration>
+			
+			
+			<Anchor>//api/name/forwardNetworkTrafficFromDelegateClass:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PDDebugger/registerPrettyStringPrinter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebugger.h</DeclaredIn>			
+			
+			<Declaration>+ (void)registerPrettyStringPrinter:(id&lt;PDPrettyStringPrinting&gt;)prettyStringPrinter</Declaration>
+			
+			
+			<Anchor>//api/name/registerPrettyStringPrinter:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PDDebugger/unregisterPrettyStringPrinter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebugger.h</DeclaredIn>			
+			
+			<Declaration>+ (void)unregisterPrettyStringPrinter:(id&lt;PDPrettyStringPrinting&gt;)prettyStringPrinter</Declaration>
+			
+			
+			<Anchor>//api/name/unregisterPrettyStringPrinter:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/enableCoreDataDebugging</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebugger.h</DeclaredIn>			
+			
+			<Declaration>- (void)enableCoreDataDebugging</Declaration>
+			
+			
+			<Anchor>//api/name/enableCoreDataDebugging</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/addManagedObjectContext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebugger.h</DeclaredIn>			
+			
+			<Declaration>- (void)addManagedObjectContext:(NSManagedObjectContext *)context</Declaration>
+			
+			
+			<Anchor>//api/name/addManagedObjectContext:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/addManagedObjectContext:withName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebugger.h</DeclaredIn>			
+			
+			<Declaration>- (void)addManagedObjectContext:(NSManagedObjectContext *)context withName:(NSString *)name</Declaration>
+			
+			
+			<Anchor>//api/name/addManagedObjectContext:withName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/removeManagedObjectContext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebugger.h</DeclaredIn>			
+			
+			<Declaration>- (void)removeManagedObjectContext:(NSManagedObjectContext *)context</Declaration>
+			
+			
+			<Anchor>//api/name/removeManagedObjectContext:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/enableViewHierarchyDebugging</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebugger.h</DeclaredIn>			
+			
+			<Declaration>- (void)enableViewHierarchyDebugging</Declaration>
+			
+			
+			<Anchor>//api/name/enableViewHierarchyDebugging</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/setDisplayedViewAttributeKeyPaths:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebugger.h</DeclaredIn>			
+			
+			<Declaration>- (void)setDisplayedViewAttributeKeyPaths:(NSArray *)keyPaths</Declaration>
+			
+			
+			<Anchor>//api/name/setDisplayedViewAttributeKeyPaths:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/enableRemoteLogging</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebugger.h</DeclaredIn>			
+			
+			<Declaration>- (void)enableRemoteLogging</Declaration>
+			
+			
+			<Anchor>//api/name/enableRemoteLogging</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/clearConsole</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebugger.h</DeclaredIn>			
+			
+			<Declaration>- (void)clearConsole</Declaration>
+			
+			
+			<Anchor>//api/name/clearConsole</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/setWebGLDomain:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDWebGLDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDWebGLDomain *webGLDomain</Declaration>
+			
+			
+			<Anchor>//api/name/webGLDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDebugger/webGLDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDWebGLDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDWebGLDomain *webGLDomain</Declaration>
+			
+			
+			<Anchor>//api/name/webGLDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/setTimelineDomain:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDTimelineDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDTimelineDomain *timelineDomain</Declaration>
+			
+			
+			<Anchor>//api/name/timelineDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDebugger/timelineDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDTimelineDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDTimelineDomain *timelineDomain</Declaration>
+			
+			
+			<Anchor>//api/name/timelineDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/setWorkerDomain:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDWorkerDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDWorkerDomain *workerDomain</Declaration>
+			
+			
+			<Anchor>//api/name/workerDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDebugger/workerDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDWorkerDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDWorkerDomain *workerDomain</Declaration>
+			
+			
+			<Anchor>//api/name/workerDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/setMemoryDomain:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDMemoryDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDMemoryDomain *memoryDomain</Declaration>
+			
+			
+			<Anchor>//api/name/memoryDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDebugger/memoryDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDMemoryDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDMemoryDomain *memoryDomain</Declaration>
+			
+			
+			<Anchor>//api/name/memoryDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/setDOMStorageDomain:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMStorageDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDDOMStorageDomain *DOMStorageDomain</Declaration>
+			
+			
+			<Anchor>//api/name/DOMStorageDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDebugger/DOMStorageDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMStorageDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDDOMStorageDomain *DOMStorageDomain</Declaration>
+			
+			
+			<Anchor>//api/name/DOMStorageDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/setProfilerDomain:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDProfilerDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDProfilerDomain *profilerDomain</Declaration>
+			
+			
+			<Anchor>//api/name/profilerDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDebugger/profilerDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDProfilerDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDProfilerDomain *profilerDomain</Declaration>
+			
+			
+			<Anchor>//api/name/profilerDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/setConsoleDomain:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDConsoleDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDConsoleDomain *consoleDomain</Declaration>
+			
+			
+			<Anchor>//api/name/consoleDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDebugger/consoleDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDConsoleDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDConsoleDomain *consoleDomain</Declaration>
+			
+			
+			<Anchor>//api/name/consoleDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/setInspectorDomain:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDInspectorDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDInspectorDomain *inspectorDomain</Declaration>
+			
+			
+			<Anchor>//api/name/inspectorDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDebugger/inspectorDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDInspectorDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDInspectorDomain *inspectorDomain</Declaration>
+			
+			
+			<Anchor>//api/name/inspectorDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/setDebuggerDomain:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebuggerDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDDebuggerDomain *debuggerDomain</Declaration>
+			
+			
+			<Anchor>//api/name/debuggerDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDebugger/debuggerDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebuggerDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDDebuggerDomain *debuggerDomain</Declaration>
+			
+			
+			<Anchor>//api/name/debuggerDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/setDatabaseDomain:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDatabaseDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDDatabaseDomain *databaseDomain</Declaration>
+			
+			
+			<Anchor>//api/name/databaseDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDebugger/databaseDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDatabaseDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDDatabaseDomain *databaseDomain</Declaration>
+			
+			
+			<Anchor>//api/name/databaseDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/setIndexedDBDomain:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDIndexedDBDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDIndexedDBDomain *indexedDBDomain</Declaration>
+			
+			
+			<Anchor>//api/name/indexedDBDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDebugger/indexedDBDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDIndexedDBDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDIndexedDBDomain *indexedDBDomain</Declaration>
+			
+			
+			<Anchor>//api/name/indexedDBDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/setFileSystemDomain:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDFileSystemDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDFileSystemDomain *fileSystemDomain</Declaration>
+			
+			
+			<Anchor>//api/name/fileSystemDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDebugger/fileSystemDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDFileSystemDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDFileSystemDomain *fileSystemDomain</Declaration>
+			
+			
+			<Anchor>//api/name/fileSystemDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/setRuntimeDomain:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDRuntimeDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDRuntimeDomain *runtimeDomain</Declaration>
+			
+			
+			<Anchor>//api/name/runtimeDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDebugger/runtimeDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDRuntimeDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDRuntimeDomain *runtimeDomain</Declaration>
+			
+			
+			<Anchor>//api/name/runtimeDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/setCSSDomain:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDCSSDomain *CSSDomain</Declaration>
+			
+			
+			<Anchor>//api/name/CSSDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDebugger/CSSDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDCSSDomain *CSSDomain</Declaration>
+			
+			
+			<Anchor>//api/name/CSSDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/setPageDomain:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDPageDomain *pageDomain</Declaration>
+			
+			
+			<Anchor>//api/name/pageDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDebugger/pageDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDPageDomain *pageDomain</Declaration>
+			
+			
+			<Anchor>//api/name/pageDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/setApplicationCacheDomain:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDApplicationCacheDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDApplicationCacheDomain *applicationCacheDomain</Declaration>
+			
+			
+			<Anchor>//api/name/applicationCacheDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDebugger/applicationCacheDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDApplicationCacheDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDApplicationCacheDomain *applicationCacheDomain</Declaration>
+			
+			
+			<Anchor>//api/name/applicationCacheDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/setNetworkDomain:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDNetworkDomain *networkDomain</Declaration>
+			
+			
+			<Anchor>//api/name/networkDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDebugger/networkDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDNetworkDomain *networkDomain</Declaration>
+			
+			
+			<Anchor>//api/name/networkDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/setDOMDebuggerDomain:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMDebuggerDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDDOMDebuggerDomain *DOMDebuggerDomain</Declaration>
+			
+			
+			<Anchor>//api/name/DOMDebuggerDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDebugger/DOMDebuggerDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMDebuggerDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDDOMDebuggerDomain *DOMDebuggerDomain</Declaration>
+			
+			
+			<Anchor>//api/name/DOMDebuggerDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebugger/setDOMDomain:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDDOMDomain *DOMDomain</Declaration>
+			
+			
+			<Anchor>//api/name/DOMDomain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDebugger/DOMDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, strong) PDDOMDomain *DOMDomain</Declaration>
+			
+			
+			<Anchor>//api/name/DOMDomain</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

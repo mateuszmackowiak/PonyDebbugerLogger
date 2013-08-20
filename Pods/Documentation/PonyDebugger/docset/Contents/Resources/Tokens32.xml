@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDDOMDomainController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDDOMDomainController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMDomainController.h</DeclaredIn>
+			
+			<NodeRef refid="32"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDOMDomainController/setDomain:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMDomainController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) PDDOMDomain *domain</Declaration>
+			
+			
+			<Anchor>//api/name/domain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDOMDomainController/domain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMDomainController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) PDDOMDomain *domain</Declaration>
+			
+			
+			<Anchor>//api/name/domain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PDDOMDomainController/defaultInstance</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMDomainController.h</DeclaredIn>			
+			
+			<Declaration>+ (PDDOMDomainController *)defaultInstance</Declaration>
+			
+			
+			<Anchor>//api/name/defaultInstance</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PDDOMDomainController/startMonitoringUIViewChanges</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMDomainController.h</DeclaredIn>			
+			
+			<Declaration>+ (void)startMonitoringUIViewChanges</Declaration>
+			
+			
+			<Anchor>//api/name/startMonitoringUIViewChanges</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDOMDomainController/setViewKeyPathsToDisplay:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMDomainController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSArray *viewKeyPathsToDisplay</Declaration>
+			
+			
+			<Anchor>//api/name/viewKeyPathsToDisplay</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDOMDomainController/viewKeyPathsToDisplay</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMDomainController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSArray *viewKeyPathsToDisplay</Declaration>
+			
+			
+			<Anchor>//api/name/viewKeyPathsToDisplay</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDOMDomainController/removeView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMDomainController.h</DeclaredIn>			
+			
+			<Declaration>- (void)removeView:(UIView *)view</Declaration>
+			
+			
+			<Anchor>//api/name/removeView:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDOMDomainController/addView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMDomainController.h</DeclaredIn>			
+			
+			<Declaration>- (void)addView:(UIView *)view</Declaration>
+			
+			
+			<Anchor>//api/name/addView:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

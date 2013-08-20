@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDApplicationCacheDomain.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDApplicationCacheDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDApplicationCacheDomain.h</DeclaredIn>
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDApplicationCacheDomain/setDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDApplicationCacheDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;PDApplicationCacheCommandDelegate,PDCommandDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDApplicationCacheDomain/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDApplicationCacheDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;PDApplicationCacheCommandDelegate,PDCommandDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDApplicationCacheDomain/applicationCacheStatusUpdatedWithFrameId:manifestURL:status:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDApplicationCacheDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)applicationCacheStatusUpdatedWithFrameId:(NSString *)frameId manifestURL:(NSString *)manifestURL status:(NSNumber *)status</Declaration>
+			
+			
+			<Anchor>//api/name/applicationCacheStatusUpdatedWithFrameId:manifestURL:status:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDApplicationCacheDomain/networkStateUpdatedWithIsNowOnline:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDApplicationCacheDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)networkStateUpdatedWithIsNowOnline:(NSNumber *)isNowOnline</Declaration>
+			
+			
+			<Anchor>//api/name/networkStateUpdatedWithIsNowOnline:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

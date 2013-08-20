@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/PDCommandDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/PDCommandDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDynamicDebuggerDomain.h</DeclaredIn>
+			
+			<NodeRef refid="122"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDCommandDelegate/domain:enableWithCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDynamicDebuggerDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDDynamicDebuggerDomain *)domain enableWithCallback:(void ( ^ ) ( id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:enableWithCallback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDCommandDelegate/domain:disableWithCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDynamicDebuggerDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDDynamicDebuggerDomain *)domain disableWithCallback:(void ( ^ ) ( id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:disableWithCallback:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDProfilerProfile.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDProfilerProfile</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDProfilerTypes.h</DeclaredIn>
+			
+			<NodeRef refid="90"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDProfilerProfile/setHead:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDProfilerTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *head</Declaration>
+			
+			
+			<Anchor>//api/name/head</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDProfilerProfile/head</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDProfilerTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *head</Declaration>
+			
+			
+			<Anchor>//api/name/head</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDProfilerProfile/setBottomUpHead:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDProfilerTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *bottomUpHead</Declaration>
+			
+			
+			<Anchor>//api/name/bottomUpHead</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDProfilerProfile/bottomUpHead</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDProfilerTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *bottomUpHead</Declaration>
+			
+			
+			<Anchor>//api/name/bottomUpHead</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

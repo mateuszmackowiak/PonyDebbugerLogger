@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDFileSystemMetadata.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDFileSystemMetadata</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDFileSystemTypes.h</DeclaredIn>
+			
+			<NodeRef refid="51"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDFileSystemMetadata/setModificationTime:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDFileSystemTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *modificationTime</Declaration>
+			
+			
+			<Anchor>//api/name/modificationTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDFileSystemMetadata/modificationTime</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDFileSystemTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *modificationTime</Declaration>
+			
+			
+			<Anchor>//api/name/modificationTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDFileSystemMetadata/setSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDFileSystemTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDFileSystemMetadata/size</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDFileSystemTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

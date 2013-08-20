@@ -1,0 +1,717 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>PonyDebugger 0.3.0 Reference</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 840)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="index.html">PonyDebugger 0.3.0 </a></h1>
+				<a id="developerHome" href="index.html">Square</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">PonyDebugger 0.3.0 Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar"></ul>
+		</header>
+		<article>
+			<div id="overview_contents" role="main">
+				<div class="main-navigation navigation-top">
+					<a href="hierarchy.html">Next</a>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">PonyDebugger 0.3.0 Reference</h1>
+					</div>		
+				</div>
+				<div id="container">
+					
+					<div class="section section-overview index-overview">
+						
+						
+						<p>!<a href="https://github.com/square/PonyDebugger/raw/master/Documentation/Images/Logo.png">PonyDebugger Logo</a></p>
+
+<h1>PonyDebugger</h1>
+
+<p>PonyDebugger is a remote debugging toolset.  It is a client library and gateway
+server combination that uses Chrome Developer Tools on your browser to debug
+your application&rsquo;s network traffic and managed object contexts.</p>
+
+<p>To use PonyDebugger, you must implement the client in your application and
+connect it to the gateway server. There is currently an iOS client and the
+gateway server.</p>
+
+<p>PonyDebugger is licensed under the Apache Licence, Version 2.0
+(<a href="http://www.apache.org/licenses/LICENSE-2.0.html">http://www.apache.org/licenses/LICENSE-2.0.html).</a>.)</p>
+
+<h2>Changes</h2>
+
+<h3>v0.3.0 &ndash; 2013-05-01</h3>
+
+<ul>
+<li>Remote Logging and Introspection (@wlue)</li>
+<li>Request response pretty printing in Network Debugger (@davidapgar)</li>
+<li>Minor bug fixes and improvements. (@jerryhjones, @conradev, @ryanolsonk)</li>
+</ul>
+
+
+<h3>v0.2.1-beta1 &ndash; 2013-01-12</h3>
+
+<ul>
+<li>Bonjour support (@jeanregisser)</li>
+<li>Memory leak fix (@rwickliffe)</li>
+</ul>
+
+
+<h2>Features</h2>
+
+<h3>Network Traffic Debugging</h3>
+
+<p>PonyDebugger sends your application&rsquo;s network traffic through
+<a href="https://github.com/square/PonyDebugger/tree/master/ponyd">ponyd</a>,
+PonyDebugger&rsquo;s proxy server.  You use Inspector&rsquo;s Network tools to debug network
+traffic like how you would debug network traffic on a website in Google Chrome.</p>
+
+<p>!<a href="https://github.com/square/PonyDebugger/raw/master/Documentation/Images/NetworkDebugging.png">PonyDebugger Network Debugging Screenshot</a></p>
+
+<p>PonyDebugger forwards network traffic, and does not sniff network traffic. This
+means that traffic sent over a secure protocol (https) is debuggable.</p>
+
+<p>Currently, the iOS client automatically proxies data that is sent via
+<code>NSURLConnection</code>. This means that it will automatically work with
+AFNetworking, and other libraries that use <code>NSURLConnection</code> for network
+requests.</p>
+
+<h3>Core Data Browser</h3>
+
+<p>The Core Data browsing feature allows you to register your applcation&rsquo;s
+<code>NSManagedObjectContext</code>s and browse all of its entities and managed objects.
+You browse data from the IndexedDB section in the Resource tab in Chrome
+Developer Tools.</p>
+
+<p>!<a href="https://github.com/square/PonyDebugger/raw/master/Documentation/Images/CoreDataBrowser.png">PonyDebugger Core Data Browser Screenshot</a></p>
+
+<p>These are read-only stores at the moment.  There are plans to implement data
+mutation in a future release.</p>
+
+<h3>View Hierarchy Debugging</h3>
+
+<p>PonyDebugger displays your application&rsquo;s view hierarchy in the Elements tab of
+the Chrome Developer Tools. As you move through the XML tree, the corresponding
+views are highlighted in your app. You can edit the displayed attributes (i.e.
+frame, alpha, &hellip;) straight from the Elements tab, and you can change which
+attributes to display by giving PonyDebugger an array of UIView key paths.
+Deleting a node in the elements panel will remove that node from the view
+hierarchy. Finally, when a view is highlighted, you can move it or resize it
+from the app using pan and pinch gestures.</p>
+
+<p>!<a href="https://github.com/square/PonyDebugger/raw/master/Documentation/Images/ViewHierarchyDebugging.png">PonyDebugger View Hierarchy Debugging Screenshot</a></p>
+
+<p>An &ldquo;inspect&rdquo; mode can be entered by clicking on the magnifying glass in the
+lower left corner of the Developer Tools window. In this mode, tapping on a view
+in the iOS app will select the corresponding node in the elements panel. You can
+also hold and drag your finger around to see the different views highlighted.
+When you lift your finger, the highlighted view will be selected in the elements
+panel.</p>
+
+<p>Currently only a subset of the actions possible from the elements panel have
+been implemented. There is significant room for continued work and improvement,
+but the current functionality should prove useful nonetheless.</p>
+
+<h3>Remote Logging</h3>
+
+<p>PonyDebugger lets you remotely log text and object dumps via the <code>PDLog</code> and
+<code>PDLogObjects</code> function. This lets you reduce the amount of content being
+loggedin <code>NSLog</code>, while also allowing you dynamically introspect objects.</p>
+
+<p>!<a href="https://github.com/square/PonyDebugger/raw/master/Documentation/Images/RemoteLogging.png">PonyDebugger Remote Login Screenshot</a></p>
+
+<p>Introspected objects can be expanded recursively by property. This means that
+you don&rsquo;t have to breakpoint and log in GDB or LLDB to introspect an object.</p>
+
+<h2>Quick Start</h2>
+
+<p>Prerequisite: Xcode&rsquo;s Command Line Tools must be installed from the &ldquo;Downloads&rdquo;
+preference pane.</p>
+
+<p>```sh</p>
+
+<p>curl -sk <a href="https://cloud.github.com/downloads/square/PonyDebugger/bootstrap-ponyd.py">https://cloud.github.com/downloads/square/PonyDebugger/bootstrap-ponyd.py</a> | \
+  python &ndash; &mdash;ponyd-symlink=/usr/local/bin/ponyd ~/Library/PonyDebugger
+```</p>
+
+<p>This will install <code>ponyd</code> script to <code>~/Library/PonyDebugger/bin/ponyd</code> and
+attempt to symlink <code>/usr/local/bin/ponyd</code> to it. It will also download the
+latest chrome dev tools source.</p>
+
+<p>Then start the PonyDebugger gateway server</p>
+
+<p><code>sh
+ponyd serve --listen-interface=127.0.0.1
+</code></p>
+
+<p>In your browser, navigate to <a href="http://localhost:9000"><code>http://localhost:9000</code></a>. You should see the
+PonyGateway lobby. Now you need to integrate the client to your application.</p>
+
+<p>For more detailed instructions, check out the gateway server
+<a href="[https://github.com/square/PonyDebugger/blob/master/README](https://github.com/square/PonyDebugger/blob/master/README">README_ponyd</a>_ponyd.rst).</p>
+
+<h1>PonyDebugger iOS Client</h1>
+
+<p>The PonyDebugger iOS client lets you to debug your application&rsquo;s network
+requests and track your managed object contexts.</p>
+
+<h4>Technical</h4>
+
+<ul>
+<li>Requires iOS 5.0 or above</li>
+<li>Uses ARC (Automatic Reference Counting).</li>
+<li>Uses SocketRocket as a WebSocket client.</li>
+</ul>
+
+
+<h2>Installing</h2>
+
+<ul>
+<li>Extract a tarball or zipball of the repository into your project directory.
+If you prefer, you may also add the project as a submodule.  The iOS client
+uses <a href="https://github.com/square/SocketRocket">SocketRocket</a> as a dependency,
+and it is included as a submodule.</li>
+</ul>
+
+
+<p><code>
+cd /path/to/YourApplication
+mkdir Frameworks
+git submodule add git://github.com/square/PonyDebugger.git Frameworks/PonyDebugger
+git submodule update --init --recursive
+</code></p>
+
+<ul>
+<li>Add <code>PonyDebugger/PonyDebugger.xcodeproj</code> as a subproject.</li>
+</ul>
+
+
+<p><img src="[https://github.com/square/PonyDebugger/raw/master/Documentation/Images/Installing](https://github.com/square/PonyDebugger/raw/master/Documentation/Images/Installing" alt="PonyDebugger Installing Subproject" />_Subproject.png)</p>
+
+<ul>
+<li>In your Project Settings, add the PonyDebugger target as a Target Dependency
+in the Build Phases tab.</li>
+</ul>
+
+
+<p><img src="[https://github.com/square/PonyDebugger/raw/master/Documentation/Images/Installing](https://github.com/square/PonyDebugger/raw/master/Documentation/Images/Installing" alt="PonyDebugger Installing Target Dependencies" />_TargetDependencies.png)</p>
+
+<ul>
+<li>Link <code>libPonyDebugger.a</code>, <code>libSocketRocket.a</code>, and the Framework dependencies
+to your project.</li>
+</ul>
+
+
+<p><img src="[https://github.com/square/PonyDebugger/raw/master/Documentation/Images/Installing](https://github.com/square/PonyDebugger/raw/master/Documentation/Images/Installing" alt="PonyDebugger Installing Link Libraries and Frameworks" />_LinkLibraries.png)</p>
+
+<ul>
+<li>PonyDebugger and SocketRocket take advantage of Objective C&rsquo;s ability to add
+categories on an object, but this isn&rsquo;t enabled for static libraries by
+default. To enable this, add the <code>-ObjC</code> flag to the &ldquo;Other Linker Flags&rdquo;
+build setting.</li>
+</ul>
+
+
+<p><img src="[https://github.com/square/PonyDebugger/raw/master/Documentation/Images/Installing](https://github.com/square/PonyDebugger/raw/master/Documentation/Images/Installing" alt="PonyDebugger Installing Other Linker Flags" />_OtherLinkerFlags.png)</p>
+
+<h4>Framework Dependencies</h4>
+
+<p>Your .app must be linked against the following frameworks/dylibs in addition to
+<code>libPonyDebugger.a</code> and <code>libSocketRocket.a</code>.</p>
+
+<ul>
+<li>libicucore.dylib</li>
+<li>CFNetwork.framework</li>
+<li>CoreData.framework</li>
+<li>Security.framework</li>
+<li>Foundation.framework</li>
+</ul>
+
+
+<h2>Usage</h2>
+
+<p>PonyDebugger&rsquo;s main entry points exist in the <a href="Classes/PDDebugger.html"><code>PDDebugger</code></a> singleton.</p>
+
+<p><code>objective-c
+PDDebugger *debugger = [PDDebugger defaultInstance];
+</code></p>
+
+<p>To connect automatically to the PonyGateway on your LAN (via Bonjour):</p>
+
+<p><code>objective-c
+[debugger autoConnect];
+</code></p>
+
+<p>Or to open the connection to a specific host, for instance
+<code>ws://localhost:9000/device</code>:</p>
+
+<p><code>objective-c
+[debugger connectToURL:[NSURL URLWithString:@"ws://localhost:9000/device"]];
+</code></p>
+
+<p>To manually close the connection:</p>
+
+<p><code>objective-c
+[debugger disconnect];
+</code></p>
+
+<h3>Network Traffic Debugging</h3>
+
+<p>To enable network debugging:</p>
+
+<p><code>objective-c
+[debugger enableNetworkTrafficDebugging];
+</code></p>
+
+<p>PonyDebugger inspects network data by injecting logic into
+<code>NSURLConnectionDelegate</code> classes. If you want PonyDebugger to automatically
+find these classes for you:</p>
+
+<p><code>objective-c
+[debugger forwardAllNetworkTraffic];
+</code></p>
+
+<p>This will swizzle methods from private APIs, so you should ensure that this only
+gets invoked in debug builds. To manually specify delegate classes:</p>
+
+<p><code>objective-c
+[debugger forwardNetworkTrafficFromDelegateClass:[MyClass class]];
+</code></p>
+
+<p>These methods should be invoked before the connection is opened.</p>
+
+<h3>Core Data Browser</h3>
+
+<p>PonyDebugger also allows you to browse your application&rsquo;s managed objects.
+First, enable Core Data debugging:</p>
+
+<p><code>objective-c
+[debugger enableCoreDataDebugging];
+</code></p>
+
+<p>To register a managed object context:</p>
+
+<p><code>objective-c
+[debugger addManagedObjectContext:self.managedObjectContext withName:@"My MOC"];
+</code></p>
+
+<h3>View Hierarchy Debugging</h3>
+
+<p>To enable view hierarchy debugging:</p>
+
+<p><code>objective-c
+[debugger enableViewHierarchyDebugging];
+</code></p>
+
+<p>PonyDebugger will inject logic into <code>UIView</code> add/remove methods to monitor
+changes in the view hierarchy.</p>
+
+<p>You can also set the attributes you want to see in the elements panel by passing
+an array of <code>UIView</code> key path strings</p>
+
+<p><code>objective-c
+[debugger setDisplayedViewAttributeKeyPaths:@[@"frame", @"hidden", @"alpha", @"opaque"]];
+</code></p>
+
+<p>PonyDebugger uses KVO to monitor changes in the attributes of all views in the
+hierarchy, so the information in the elements panel stays fresh.</p>
+
+<h3>Remote Logging</h3>
+
+<p>To enable remote logging:</p>
+
+<p><code>objective-c
+[debugger enableRemoteLogging];
+</code></p>
+
+<p>Example usage:</p>
+
+<p><code>objective-c
+PDLog("Hello world!");               // This logs a simple string to the console output.
+PDLogObjects(self);                  // This logs an introspectable version of "self" to the console.
+PDLogObjects("My object:", object);  // Combination of text and introspectable object.
+</code></p>
+
+<p>The repository contains a test application to demonstrate PonyDebugger&rsquo;s
+capabilities and usage.</p>
+
+<h3>Known Issues / Improvements</h3>
+
+<ul>
+<li><code>CoreData.framework</code> must be linked, even if you do not use the Core Data
+browsing functionality.</li>
+<li><p>iOS 5.1 and below: In certain cases,
+<code>[NSURLConnectionDataDelegate connection:willSendRequest:redirectResponse:]</code>
+will never get called.  PonyDebugger requires this call to know when the
+request was sent, and will warn you with a workaround that the timestamp is
+inaccurate.</p>
+
+<p>To fix the timestamp, make sure that <code>Accept-Encoding</code> HTTP header in your
+<code>NSURLRequest</code> is not set (by default, iOS will set it to <code>gzip, deflate</code>,
+which is usually adequate.</p>
+
+<p>AFNetworking users: if you subclass <code>AFHTTPClient</code>, call
+<code>[self setDefaultHeader:@"Accept-Encoding" value:nil];</code>.</p></li>
+</ul>
+
+
+<h2>Contributing</h2>
+
+<p>Any contributors to the master PonyDebugger repository must sign the
+~!@<a href="https://spreadsheets.google.com/spreadsheet/viewform?formkey=dDViT2xzUHAwRkI3X3k5Z0lQM091OGc6MQ&amp;ndplr=1">Individual Contributor License Agreement
+(CLA)</a>@!~.
+It&rsquo;s a short form that covers our bases and makes sure you&rsquo;re eligible to
+contribute.</p>
+
+<p>When you have a change you&rsquo;d like to see in the master repository, ~!@<a href="https://github.com/square/PonyDebugger/pulls">send a pull
+request</a>@!~. Before we merge your
+request, we&rsquo;ll make sure you&rsquo;re in the list of people who have signed a CLA.</p>
+
+<p>Some useful links:</p>
+
+<ul>
+<li><a href="https://developers.google.com/chrome-developer-tools/docs/protocol/tot/index">Chrome Remote Debugging Documentation</a></li>
+<li><a href="https://github.com/WebKit/webkit/blob/master/Source/WebCore/inspector/Inspector.json">WebKit Inspector Protocol Definition on GitHub</a></li>
+</ul>
+
+						
+						
+					</div>
+					
+                        
+                    
+					
+					
+					<div class="index-column">
+						<h2 class="index-title">Class References</h2>
+						<ul>
+							
+							<li><a href="Classes/PDApplicationCacheApplicationCache.html">PDApplicationCacheApplicationCache</a></li>
+							
+							<li><a href="Classes/PDApplicationCacheApplicationCacheResource.html">PDApplicationCacheApplicationCacheResource</a></li>
+							
+							<li><a href="Classes/PDApplicationCacheDomain.html">PDApplicationCacheDomain</a></li>
+							
+							<li><a href="Classes/PDApplicationCacheFrameWithManifest.html">PDApplicationCacheFrameWithManifest</a></li>
+							
+							<li><a href="Classes/PDCSSCSSComputedStyleProperty.html">PDCSSCSSComputedStyleProperty</a></li>
+							
+							<li><a href="Classes/PDCSSCSSMedia.html">PDCSSCSSMedia</a></li>
+							
+							<li><a href="Classes/PDCSSCSSProperty.html">PDCSSCSSProperty</a></li>
+							
+							<li><a href="Classes/PDCSSCSSPropertyInfo.html">PDCSSCSSPropertyInfo</a></li>
+							
+							<li><a href="Classes/PDCSSCSSRule.html">PDCSSCSSRule</a></li>
+							
+							<li><a href="Classes/PDCSSCSSRuleId.html">PDCSSCSSRuleId</a></li>
+							
+							<li><a href="Classes/PDCSSCSSStyle.html">PDCSSCSSStyle</a></li>
+							
+							<li><a href="Classes/PDCSSCSSStyleAttribute.html">PDCSSCSSStyleAttribute</a></li>
+							
+							<li><a href="Classes/PDCSSCSSStyleId.html">PDCSSCSSStyleId</a></li>
+							
+							<li><a href="Classes/PDCSSCSSStyleSheetBody.html">PDCSSCSSStyleSheetBody</a></li>
+							
+							<li><a href="Classes/PDCSSCSSStyleSheetHeader.html">PDCSSCSSStyleSheetHeader</a></li>
+							
+							<li><a href="Classes/PDCSSDomain.html">PDCSSDomain</a></li>
+							
+							<li><a href="Classes/PDCSSInheritedStyleEntry.html">PDCSSInheritedStyleEntry</a></li>
+							
+							<li><a href="Classes/PDCSSNamedFlow.html">PDCSSNamedFlow</a></li>
+							
+							<li><a href="Classes/PDCSSPseudoIdRules.html">PDCSSPseudoIdRules</a></li>
+							
+							<li><a href="Classes/PDCSSRegion.html">PDCSSRegion</a></li>
+							
+							<li><a href="Classes/PDCSSSelectorProfile.html">PDCSSSelectorProfile</a></li>
+							
+							<li><a href="Classes/PDCSSSelectorProfileEntry.html">PDCSSSelectorProfileEntry</a></li>
+							
+							<li><a href="Classes/PDCSSShorthandEntry.html">PDCSSShorthandEntry</a></li>
+							
+							<li><a href="Classes/PDCSSSourceRange.html">PDCSSSourceRange</a></li>
+							
+							<li><a href="Classes/PDConsoleCallFrame.html">PDConsoleCallFrame</a></li>
+							
+							<li><a href="Classes/PDConsoleConsoleMessage.html">PDConsoleConsoleMessage</a></li>
+							
+							<li><a href="Classes/PDConsoleDomain.html">PDConsoleDomain</a></li>
+							
+							<li><a href="Classes/PDConsoleDomainController.html">PDConsoleDomainController</a></li>
+							
+							<li><a href="Classes/PDContainerIndex.html">PDContainerIndex</a></li>
+							
+							<li><a href="Classes/PDDOMDebuggerDomain.html">PDDOMDebuggerDomain</a></li>
+							
+							<li><a href="Classes/PDDOMDomain.html">PDDOMDomain</a></li>
+							
+							<li><a href="Classes/PDDOMDomainController.html">PDDOMDomainController</a></li>
+							
+							<li><a href="Classes/PDDOMEventListener.html">PDDOMEventListener</a></li>
+							
+							<li><a href="Classes/PDDOMHighlightConfig.html">PDDOMHighlightConfig</a></li>
+							
+							<li><a href="Classes/PDDOMNode.html">PDDOMNode</a></li>
+							
+							<li><a href="Classes/PDDOMRGBA.html">PDDOMRGBA</a></li>
+							
+							<li><a href="Classes/PDDOMStorageDomain.html">PDDOMStorageDomain</a></li>
+							
+							<li><a href="Classes/PDDOMStorageEntry.html">PDDOMStorageEntry</a></li>
+							
+							<li><a href="Classes/PDDatabaseDatabase.html">PDDatabaseDatabase</a></li>
+							
+							<li><a href="Classes/PDDatabaseDomain.html">PDDatabaseDomain</a></li>
+							
+							<li><a href="Classes/PDDebugger.html">PDDebugger</a></li>
+							
+							<li><a href="Classes/PDDebuggerCallFrame.html">PDDebuggerCallFrame</a></li>
+							
+							<li><a href="Classes/PDDebuggerDomain.html">PDDebuggerDomain</a></li>
+							
+							<li><a href="Classes/PDDebuggerFunctionDetails.html">PDDebuggerFunctionDetails</a></li>
+							
+							<li><a href="Classes/PDDebuggerLocation.html">PDDebuggerLocation</a></li>
+							
+							<li><a href="Classes/PDDebuggerScope.html">PDDebuggerScope</a></li>
+							
+							<li><a href="Classes/PDDomainController.html">PDDomainController</a></li>
+							
+							<li><a href="Classes/PDDynamicDebuggerDomain.html">PDDynamicDebuggerDomain</a></li>
+							
+							<li><a href="Classes/PDFileSystemDomain.html">PDFileSystemDomain</a></li>
+							
+							<li><a href="Classes/PDFileSystemEntry.html">PDFileSystemEntry</a></li>
+							
+							<li><a href="Classes/PDFileSystemMetadata.html">PDFileSystemMetadata</a></li>
+							
+							<li><a href="Classes/PDIndexedDBDataEntry.html">PDIndexedDBDataEntry</a></li>
+							
+							<li><a href="Classes/PDIndexedDBDatabaseWithObjectStores.html">PDIndexedDBDatabaseWithObjectStores</a></li>
+							
+							<li><a href="Classes/PDIndexedDBDomain.html">PDIndexedDBDomain</a></li>
+							
+							<li><a href="Classes/PDIndexedDBDomainController.html">PDIndexedDBDomainController</a></li>
+							
+							<li><a href="Classes/PDIndexedDBKey.html">PDIndexedDBKey</a></li>
+							
+							<li><a href="Classes/PDIndexedDBKeyPath.html">PDIndexedDBKeyPath</a></li>
+							
+							<li><a href="Classes/PDIndexedDBKeyRange.html">PDIndexedDBKeyRange</a></li>
+							
+							<li><a href="Classes/PDIndexedDBObjectStore.html">PDIndexedDBObjectStore</a></li>
+							
+							<li><a href="Classes/PDIndexedDBObjectStoreIndex.html">PDIndexedDBObjectStoreIndex</a></li>
+							
+							<li><a href="Classes/PDIndexedDBSecurityOriginWithDatabaseNames.html">PDIndexedDBSecurityOriginWithDatabaseNames</a></li>
+							
+							<li><a href="Classes/PDInspectorDomain.html">PDInspectorDomain</a></li>
+							
+							<li><a href="Classes/PDInspectorDomainController.html">PDInspectorDomainController</a></li>
+							
+							<li><a href="Classes/PDJSONPrettyStringPrinter.html">PDJSONPrettyStringPrinter</a></li>
+							
+							<li><a href="Classes/PDMemoryDOMGroup.html">PDMemoryDOMGroup</a></li>
+							
+							<li><a href="Classes/PDMemoryDomain.html">PDMemoryDomain</a></li>
+							
+							<li><a href="Classes/PDMemoryListenerCount.html">PDMemoryListenerCount</a></li>
+							
+							<li><a href="Classes/PDMemoryMemoryBlock.html">PDMemoryMemoryBlock</a></li>
+							
+							<li><a href="Classes/PDMemoryNodeCount.html">PDMemoryNodeCount</a></li>
+							
+							<li><a href="Classes/PDMemoryStringStatistics.html">PDMemoryStringStatistics</a></li>
+							
+							<li><a href="Classes/PDNetworkCachedResource.html">PDNetworkCachedResource</a></li>
+							
+							<li><a href="Classes/PDNetworkDomain.html">PDNetworkDomain</a></li>
+							
+							<li><a href="Classes/PDNetworkDomainController.html">PDNetworkDomainController</a></li>
+							
+							<li><a href="Classes/PDNetworkInitiator.html">PDNetworkInitiator</a></li>
+							
+							<li><a href="Classes/PDNetworkRequest.html">PDNetworkRequest</a></li>
+							
+							<li><a href="Classes/PDNetworkResourceTiming.html">PDNetworkResourceTiming</a></li>
+							
+							<li><a href="Classes/PDNetworkResponse.html">PDNetworkResponse</a></li>
+							
+							<li><a href="Classes/PDNetworkWebSocketFrame.html">PDNetworkWebSocketFrame</a></li>
+							
+							<li><a href="Classes/PDNetworkWebSocketRequest.html">PDNetworkWebSocketRequest</a></li>
+							
+							<li><a href="Classes/PDNetworkWebSocketResponse.html">PDNetworkWebSocketResponse</a></li>
+							
+							<li><a href="Classes/PDObject.html">PDObject</a></li>
+							
+							<li><a href="Classes/PDPageCookie.html">PDPageCookie</a></li>
+							
+							<li><a href="Classes/PDPageDomain.html">PDPageDomain</a></li>
+							
+							<li><a href="Classes/PDPageDomainController.html">PDPageDomainController</a></li>
+							
+							<li><a href="Classes/PDPageFrame.html">PDPageFrame</a></li>
+							
+							<li><a href="Classes/PDPageFrameResourceTree.html">PDPageFrameResourceTree</a></li>
+							
+							<li><a href="Classes/PDPageSearchMatch.html">PDPageSearchMatch</a></li>
+							
+							<li><a href="Classes/PDPageSearchResult.html">PDPageSearchResult</a></li>
+							
+							<li><a href="Classes/PDProfilerDomain.html">PDProfilerDomain</a></li>
+							
+							<li><a href="Classes/PDProfilerProfile.html">PDProfilerProfile</a></li>
+							
+							<li><a href="Classes/PDProfilerProfileHeader.html">PDProfilerProfileHeader</a></li>
+							
+							<li><a href="Classes/PDRuntimeCallArgument.html">PDRuntimeCallArgument</a></li>
+							
+							<li><a href="Classes/PDRuntimeDomain.html">PDRuntimeDomain</a></li>
+							
+							<li><a href="Classes/PDRuntimeDomainController.html">PDRuntimeDomainController</a></li>
+							
+							<li><a href="Classes/PDRuntimeExecutionContextDescription.html">PDRuntimeExecutionContextDescription</a></li>
+							
+							<li><a href="Classes/PDRuntimeObjectPreview.html">PDRuntimeObjectPreview</a></li>
+							
+							<li><a href="Classes/PDRuntimePropertyDescriptor.html">PDRuntimePropertyDescriptor</a></li>
+							
+							<li><a href="Classes/PDRuntimePropertyPreview.html">PDRuntimePropertyPreview</a></li>
+							
+							<li><a href="Classes/PDRuntimeRemoteObject.html">PDRuntimeRemoteObject</a></li>
+							
+							<li><a href="Classes/PDTextPrettyStringPrinter.html">PDTextPrettyStringPrinter</a></li>
+							
+							<li><a href="Classes/PDTimelineDomain.html">PDTimelineDomain</a></li>
+							
+							<li><a href="Classes/PDTimelineTimelineEvent.html">PDTimelineTimelineEvent</a></li>
+							
+							<li><a href="Classes/PDWebGLCall.html">PDWebGLCall</a></li>
+							
+							<li><a href="Classes/PDWebGLDomain.html">PDWebGLDomain</a></li>
+							
+							<li><a href="Classes/PDWebGLTraceLog.html">PDWebGLTraceLog</a></li>
+							
+							<li><a href="Classes/PDWorkerDomain.html">PDWorkerDomain</a></li>
+							
+						</ul>
+					</div>
+					
+					
+						
+					<div class="index-column">
+						
+						<h2 class="index-title">Protocol References</h2>
+						<ul>
+							
+							<li><a href="Protocols/PDApplicationCacheCommandDelegate.html">PDApplicationCacheCommandDelegate</a></li>
+							
+							<li><a href="Protocols/PDCSSCommandDelegate.html">PDCSSCommandDelegate</a></li>
+							
+							<li><a href="Protocols/PDCommandDelegate.html">PDCommandDelegate</a></li>
+							
+							<li><a href="Protocols/PDConsoleCommandDelegate.html">PDConsoleCommandDelegate</a></li>
+							
+							<li><a href="Protocols/PDDOMCommandDelegate.html">PDDOMCommandDelegate</a></li>
+							
+							<li><a href="Protocols/PDDOMDebuggerCommandDelegate.html">PDDOMDebuggerCommandDelegate</a></li>
+							
+							<li><a href="Protocols/PDDOMStorageCommandDelegate.html">PDDOMStorageCommandDelegate</a></li>
+							
+							<li><a href="Protocols/PDDatabaseCommandDelegate.html">PDDatabaseCommandDelegate</a></li>
+							
+							<li><a href="Protocols/PDDebuggerCommandDelegate.html">PDDebuggerCommandDelegate</a></li>
+							
+							<li><a href="Protocols/PDFileSystemCommandDelegate.html">PDFileSystemCommandDelegate</a></li>
+							
+							<li><a href="Protocols/PDIndexedDBCommandDelegate.html">PDIndexedDBCommandDelegate</a></li>
+							
+							<li><a href="Protocols/PDInspectorCommandDelegate.html">PDInspectorCommandDelegate</a></li>
+							
+							<li><a href="Protocols/PDMemoryCommandDelegate.html">PDMemoryCommandDelegate</a></li>
+							
+							<li><a href="Protocols/PDNetworkCommandDelegate.html">PDNetworkCommandDelegate</a></li>
+							
+							<li><a href="Protocols/PDPageCommandDelegate.html">PDPageCommandDelegate</a></li>
+							
+							<li><a href="Protocols/PDPrettyStringPrinting.html">PDPrettyStringPrinting</a></li>
+							
+							<li><a href="Protocols/PDProfilerCommandDelegate.html">PDProfilerCommandDelegate</a></li>
+							
+							<li><a href="Protocols/PDRuntimeCommandDelegate.html">PDRuntimeCommandDelegate</a></li>
+							
+							<li><a href="Protocols/PDTimelineCommandDelegate.html">PDTimelineCommandDelegate</a></li>
+							
+							<li><a href="Protocols/PDWebGLCommandDelegate.html">PDWebGLCommandDelegate</a></li>
+							
+							<li><a href="Protocols/PDWorkerCommandDelegate.html">PDWorkerCommandDelegate</a></li>
+							
+						</ul>
+						
+						
+						<h2 class="index-title">Category References</h2>
+						<ul>
+							
+							<li><a href="Categories/NSArray+PDRuntimePropertyDescriptor.html">NSArray(PDRuntimePropertyDescriptor)</a></li>
+							
+							<li><a href="Categories/NSArray+PD_JSONObject.html">NSArray(PD_JSONObject)</a></li>
+							
+							<li><a href="Categories/NSData+PDB64Additions.html">NSData(PDB64Additions)</a></li>
+							
+							<li><a href="Categories/NSDate+PDDebugger.html">NSDate(PDDebugger)</a></li>
+							
+							<li><a href="Categories/NSDate+PD_JSONObject.html">NSDate(PD_JSONObject)</a></li>
+							
+							<li><a href="Categories/NSDictionary+PDRuntimePropertyDescriptor.html">NSDictionary(PDRuntimePropertyDescriptor)</a></li>
+							
+							<li><a href="Categories/NSError+PD_JSONObject.html">NSError(PD_JSONObject)</a></li>
+							
+							<li><a href="Categories/NSManagedObject+PDRuntimePropertyDescriptor.html">NSManagedObject(PDRuntimePropertyDescriptor)</a></li>
+							
+							<li><a href="Categories/NSObject+PDRuntimePropertyDescriptor.html">NSObject(PDRuntimePropertyDescriptor)</a></li>
+							
+							<li><a href="Categories/NSObject+PD_JSONObject.html">NSObject(PD_JSONObject)</a></li>
+							
+							<li><a href="Categories/NSOrderedSet+PDRuntimePropertyDescriptor.html">NSOrderedSet(PDRuntimePropertyDescriptor)</a></li>
+							
+							<li><a href="Categories/NSSet+PDRuntimePropertyDescriptor.html">NSSet(PDRuntimePropertyDescriptor)</a></li>
+							
+							<li><a href="Categories/NSURLResponse+PDNetworkHelpers.html">NSURLResponse(PDNetworkHelpers)</a></li>
+							
+						</ul>
+						
+					</div>
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<a href="hierarchy.html">Next</a>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Square. All rights reserved. (Last updated: 2013-08-20)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 840)</a>.</span></p>
+						
+	
+					</div>
+				</div>
+			</div>
+		</article>		
+	</body>
+</html>

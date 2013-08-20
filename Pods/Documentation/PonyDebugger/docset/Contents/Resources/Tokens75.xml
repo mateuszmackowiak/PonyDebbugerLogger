@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDNetworkRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDNetworkRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>
+			
+			<NodeRef refid="75"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDNetworkRequest/setUrl:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDNetworkRequest/url</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDNetworkRequest/setMethod:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *method</Declaration>
+			
+			
+			<Anchor>//api/name/method</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDNetworkRequest/method</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *method</Declaration>
+			
+			
+			<Anchor>//api/name/method</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDNetworkRequest/setHeaders:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *headers</Declaration>
+			
+			
+			<Anchor>//api/name/headers</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDNetworkRequest/headers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *headers</Declaration>
+			
+			
+			<Anchor>//api/name/headers</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDNetworkRequest/setPostData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *postData</Declaration>
+			
+			
+			<Anchor>//api/name/postData</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDNetworkRequest/postData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *postData</Declaration>
+			
+			
+			<Anchor>//api/name/postData</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDNetworkRequest/initWithURLRequest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkDomainController.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithURLRequest:(NSURLRequest *)request</Declaration>
+			
+			
+			<Anchor>//api/name/initWithURLRequest:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PDNetworkRequest/networkRequestWithURLRequest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkDomainController.h</DeclaredIn>			
+			
+			<Declaration>+ (PDNetworkRequest *)networkRequestWithURLRequest:(NSURLRequest *)request</Declaration>
+			
+			
+			<Anchor>//api/name/networkRequestWithURLRequest:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

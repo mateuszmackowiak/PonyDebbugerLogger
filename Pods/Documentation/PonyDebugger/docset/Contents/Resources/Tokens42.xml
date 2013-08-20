@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDDebuggerCallFrame.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDDebuggerCallFrame</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebuggerTypes.h</DeclaredIn>
+			
+			<NodeRef refid="42"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebuggerCallFrame/setCallFrameId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebuggerTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *callFrameId</Declaration>
+			
+			
+			<Anchor>//api/name/callFrameId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDebuggerCallFrame/callFrameId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebuggerTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *callFrameId</Declaration>
+			
+			
+			<Anchor>//api/name/callFrameId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebuggerCallFrame/setFunctionName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebuggerTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *functionName</Declaration>
+			
+			
+			<Anchor>//api/name/functionName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDebuggerCallFrame/functionName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebuggerTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *functionName</Declaration>
+			
+			
+			<Anchor>//api/name/functionName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebuggerCallFrame/setLocation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebuggerTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) PDDebuggerLocation *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDebuggerCallFrame/location</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebuggerTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) PDDebuggerLocation *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebuggerCallFrame/setScopeChain:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebuggerTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSArray *scopeChain</Declaration>
+			
+			
+			<Anchor>//api/name/scopeChain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDebuggerCallFrame/scopeChain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebuggerTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSArray *scopeChain</Declaration>
+			
+			
+			<Anchor>//api/name/scopeChain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebuggerCallFrame/setThis:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebuggerTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) PDRuntimeRemoteObject *this</Declaration>
+			
+			
+			<Anchor>//api/name/this</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDebuggerCallFrame/this</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebuggerTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) PDRuntimeRemoteObject *this</Declaration>
+			
+			
+			<Anchor>//api/name/this</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

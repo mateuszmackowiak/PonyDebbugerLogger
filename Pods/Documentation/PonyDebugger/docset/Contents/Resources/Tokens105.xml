@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDWebGLTraceLog.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDWebGLTraceLog</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDWebGLTypes.h</DeclaredIn>
+			
+			<NodeRef refid="105"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDWebGLTraceLog/setIdentifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDWebGLTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDWebGLTraceLog/identifier</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDWebGLTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDWebGLTraceLog/setCalls:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDWebGLTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSArray *calls</Declaration>
+			
+			
+			<Anchor>//api/name/calls</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDWebGLTraceLog/calls</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDWebGLTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSArray *calls</Declaration>
+			
+			
+			<Anchor>//api/name/calls</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDNetworkWebSocketResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDNetworkWebSocketResponse</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>
+			
+			<NodeRef refid="80"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDNetworkWebSocketResponse/setStatus:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDNetworkWebSocketResponse/status</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDNetworkWebSocketResponse/setStatusText:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *statusText</Declaration>
+			
+			
+			<Anchor>//api/name/statusText</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDNetworkWebSocketResponse/statusText</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *statusText</Declaration>
+			
+			
+			<Anchor>//api/name/statusText</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDNetworkWebSocketResponse/setHeaders:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *headers</Declaration>
+			
+			
+			<Anchor>//api/name/headers</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDNetworkWebSocketResponse/headers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *headers</Declaration>
+			
+			
+			<Anchor>//api/name/headers</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDNetworkWebSocketResponse/setChallengeResponse:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *challengeResponse</Declaration>
+			
+			
+			<Anchor>//api/name/challengeResponse</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDNetworkWebSocketResponse/challengeResponse</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *challengeResponse</Declaration>
+			
+			
+			<Anchor>//api/name/challengeResponse</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

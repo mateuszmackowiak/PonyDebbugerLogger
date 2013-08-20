@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSData+PDB64Additions.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSData(PDB64Additions)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSData+PDB64Additions.h</DeclaredIn>
+			
+			<NodeRef refid="109"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSData(PDB64Additions)/PD_stringByBase64Encoding</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSData+PDB64Additions.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)PD_stringByBase64Encoding</Declaration>
+			
+			
+			<Anchor>//api/name/PD_stringByBase64Encoding</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

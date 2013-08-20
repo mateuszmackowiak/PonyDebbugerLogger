@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/PDApplicationCacheCommandDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/PDApplicationCacheCommandDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDApplicationCacheDomain.h</DeclaredIn>
+			
+			<NodeRef refid="120"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDApplicationCacheCommandDelegate/domain:getFramesWithManifestsWithCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDApplicationCacheDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDApplicationCacheDomain *)domain getFramesWithManifestsWithCallback:(void ( ^ ) ( NSArray *frameIds , id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:getFramesWithManifestsWithCallback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDApplicationCacheCommandDelegate/domain:enableWithCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDApplicationCacheDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDApplicationCacheDomain *)domain enableWithCallback:(void ( ^ ) ( id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:enableWithCallback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDApplicationCacheCommandDelegate/domain:getManifestForFrameWithFrameId:callback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDApplicationCacheDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDApplicationCacheDomain *)domain getManifestForFrameWithFrameId:(NSString *)frameId callback:(void ( ^ ) ( NSString *manifestURL , id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:getManifestForFrameWithFrameId:callback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDApplicationCacheCommandDelegate/domain:getApplicationCacheForFrameWithFrameId:callback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDApplicationCacheDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDApplicationCacheDomain *)domain getApplicationCacheForFrameWithFrameId:(NSString *)frameId callback:(void ( ^ ) ( PDApplicationCacheApplicationCache *applicationCache , id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:getApplicationCacheForFrameWithFrameId:callback:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

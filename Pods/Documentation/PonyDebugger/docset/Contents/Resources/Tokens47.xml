@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDDomainController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDDomainController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDomainController.h</DeclaredIn>
+			
+			<NodeRef refid="47"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDomainController/setEnabled:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDomainController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDomainController/enabled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDomainController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDomainController/setDomain:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDomainController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) PDDynamicDebuggerDomain *domain</Declaration>
+			
+			
+			<Anchor>//api/name/domain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDomainController/domain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDomainController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) PDDynamicDebuggerDomain *domain</Declaration>
+			
+			
+			<Anchor>//api/name/domain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PDDomainController/domainName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDomainController.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)domainName</Declaration>
+			
+			
+			<Anchor>//api/name/domainName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PDDomainController/domainClass</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDomainController.h</DeclaredIn>			
+			
+			<Declaration>+ (Class)domainClass</Declaration>
+			
+			
+			<Anchor>//api/name/domainClass</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

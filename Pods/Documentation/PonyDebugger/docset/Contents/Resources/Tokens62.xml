@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDInspectorDomain.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDInspectorDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDInspectorDomain.h</DeclaredIn>
+			
+			<NodeRef refid="62"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDInspectorDomain/setDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDInspectorDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;PDInspectorCommandDelegate,PDCommandDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDInspectorDomain/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDInspectorDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;PDInspectorCommandDelegate,PDCommandDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDInspectorDomain/evaluateForTestInFrontendWithTestCallId:script:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDInspectorDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)evaluateForTestInFrontendWithTestCallId:(NSNumber *)testCallId script:(NSString *)script</Declaration>
+			
+			
+			<Anchor>//api/name/evaluateForTestInFrontendWithTestCallId:script:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDInspectorDomain/inspectWithObject:hints:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDInspectorDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)inspectWithObject:(PDRuntimeRemoteObject *)object hints:(NSDictionary *)hints</Declaration>
+			
+			
+			<Anchor>//api/name/inspectWithObject:hints:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

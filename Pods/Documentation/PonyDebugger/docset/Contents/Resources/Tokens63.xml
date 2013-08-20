@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDInspectorDomainController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDInspectorDomainController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDInspectorDomainController.h</DeclaredIn>
+			
+			<NodeRef refid="63"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDInspectorDomainController/setDomain:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDInspectorDomainController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) PDInspectorDomain *domain</Declaration>
+			
+			
+			<Anchor>//api/name/domain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDInspectorDomainController/domain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDInspectorDomainController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) PDInspectorDomain *domain</Declaration>
+			
+			
+			<Anchor>//api/name/domain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PDInspectorDomainController/defaultInstance</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDInspectorDomainController.h</DeclaredIn>			
+			
+			<Declaration>+ (instancetype)defaultInstance</Declaration>
+			
+			
+			<Anchor>//api/name/defaultInstance</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

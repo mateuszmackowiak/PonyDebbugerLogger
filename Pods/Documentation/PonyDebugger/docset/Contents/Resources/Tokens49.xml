@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDFileSystemDomain.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDFileSystemDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDFileSystemDomain.h</DeclaredIn>
+			
+			<NodeRef refid="49"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDFileSystemDomain/setDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDFileSystemDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;PDFileSystemCommandDelegate,PDCommandDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDFileSystemDomain/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDFileSystemDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;PDFileSystemCommandDelegate,PDCommandDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDFileSystemDomain/fileSystemRootReceivedWithRequestId:errorCode:root:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDFileSystemDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)fileSystemRootReceivedWithRequestId:(NSNumber *)requestId errorCode:(NSNumber *)errorCode root:(PDFileSystemEntry *)root</Declaration>
+			
+			
+			<Anchor>//api/name/fileSystemRootReceivedWithRequestId:errorCode:root:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDFileSystemDomain/directoryContentReceivedWithRequestId:errorCode:entries:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDFileSystemDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)directoryContentReceivedWithRequestId:(NSNumber *)requestId errorCode:(NSNumber *)errorCode entries:(NSArray *)entries</Declaration>
+			
+			
+			<Anchor>//api/name/directoryContentReceivedWithRequestId:errorCode:entries:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDFileSystemDomain/metadataReceivedWithRequestId:errorCode:metadata:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDFileSystemDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)metadataReceivedWithRequestId:(NSNumber *)requestId errorCode:(NSNumber *)errorCode metadata:(PDFileSystemMetadata *)metadata</Declaration>
+			
+			
+			<Anchor>//api/name/metadataReceivedWithRequestId:errorCode:metadata:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDFileSystemDomain/fileContentReceivedWithRequestId:errorCode:content:charset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDFileSystemDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)fileContentReceivedWithRequestId:(NSNumber *)requestId errorCode:(NSNumber *)errorCode content:(NSString *)content charset:(NSString *)charset</Declaration>
+			
+			
+			<Anchor>//api/name/fileContentReceivedWithRequestId:errorCode:content:charset:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDFileSystemDomain/deletionCompletedWithRequestId:errorCode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDFileSystemDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)deletionCompletedWithRequestId:(NSNumber *)requestId errorCode:(NSNumber *)errorCode</Declaration>
+			
+			
+			<Anchor>//api/name/deletionCompletedWithRequestId:errorCode:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

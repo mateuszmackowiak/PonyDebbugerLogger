@@ -1,0 +1,576 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>PDProfilerCommandDelegate Protocol Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 840)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">PonyDebugger 0.3.0 </a></h1>
+				<a id="developerHome" href="../index.html">Square</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">PDProfilerCommandDelegate Protocol Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/domain:causesRecompilationWithCallback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:causesRecompilationWithCallback:</option>
+	
+	<option value="//api/name/domain:clearProfilesWithCallback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:clearProfilesWithCallback:</option>
+	
+	<option value="//api/name/domain:collectGarbageWithCallback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:collectGarbageWithCallback:</option>
+	
+	<option value="//api/name/domain:disableWithCallback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:disableWithCallback:</option>
+	
+	<option value="//api/name/domain:enableWithCallback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:enableWithCallback:</option>
+	
+	<option value="//api/name/domain:getHeapObjectIdWithObjectId:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:getHeapObjectIdWithObjectId:callback:</option>
+	
+	<option value="//api/name/domain:getObjectByHeapObjectIdWithObjectId:objectGroup:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:getObjectByHeapObjectIdWithObjectId:objectGroup:callback:</option>
+	
+	<option value="//api/name/domain:getProfileHeadersWithCallback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:getProfileHeadersWithCallback:</option>
+	
+	<option value="//api/name/domain:getProfileWithType:uid:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:getProfileWithType:uid:callback:</option>
+	
+	<option value="//api/name/domain:hasHeapProfilerWithCallback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:hasHeapProfilerWithCallback:</option>
+	
+	<option value="//api/name/domain:isSamplingWithCallback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:isSamplingWithCallback:</option>
+	
+	<option value="//api/name/domain:removeProfileWithType:uid:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:removeProfileWithType:uid:callback:</option>
+	
+	<option value="//api/name/domain:startWithCallback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:startWithCallback:</option>
+	
+	<option value="//api/name/domain:stopWithCallback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:stopWithCallback:</option>
+	
+	<option value="//api/name/domain:takeHeapSnapshotWithCallback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:takeHeapSnapshotWithCallback:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:causesRecompilationWithCallback:">domain:causesRecompilationWithCallback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:clearProfilesWithCallback:">domain:clearProfilesWithCallback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:collectGarbageWithCallback:">domain:collectGarbageWithCallback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:disableWithCallback:">domain:disableWithCallback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:enableWithCallback:">domain:enableWithCallback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:getHeapObjectIdWithObjectId:callback:">domain:getHeapObjectIdWithObjectId:callback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:getObjectByHeapObjectIdWithObjectId:objectGroup:callback:">domain:getObjectByHeapObjectIdWithObjectId:objectGroup:callback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:getProfileHeadersWithCallback:">domain:getProfileHeadersWithCallback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:getProfileWithType:uid:callback:">domain:getProfileWithType:uid:callback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:hasHeapProfilerWithCallback:">domain:hasHeapProfilerWithCallback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:isSamplingWithCallback:">domain:isSamplingWithCallback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:removeProfileWithType:uid:callback:">domain:removeProfileWithType:uid:callback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:startWithCallback:">domain:startWithCallback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:stopWithCallback:">domain:stopWithCallback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:takeHeapSnapshotWithCallback:">domain:takeHeapSnapshotWithCallback:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="PDProfilerCommandDelegate Protocol Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">PDProfilerCommandDelegate Protocol Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value"><a href="../Protocols/PDCommandDelegate.html">PDCommandDelegate</a></td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">PDProfilerDomain.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:causesRecompilationWithCallback:">&ndash;&nbsp;domain:causesRecompilationWithCallback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:isSamplingWithCallback:">&ndash;&nbsp;domain:isSamplingWithCallback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:hasHeapProfilerWithCallback:">&ndash;&nbsp;domain:hasHeapProfilerWithCallback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:enableWithCallback:">&ndash;&nbsp;domain:enableWithCallback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:disableWithCallback:">&ndash;&nbsp;domain:disableWithCallback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:startWithCallback:">&ndash;&nbsp;domain:startWithCallback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:stopWithCallback:">&ndash;&nbsp;domain:stopWithCallback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:getProfileHeadersWithCallback:">&ndash;&nbsp;domain:getProfileHeadersWithCallback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:getProfileWithType:uid:callback:">&ndash;&nbsp;domain:getProfileWithType:uid:callback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:removeProfileWithType:uid:callback:">&ndash;&nbsp;domain:removeProfileWithType:uid:callback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:clearProfilesWithCallback:">&ndash;&nbsp;domain:clearProfilesWithCallback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:takeHeapSnapshotWithCallback:">&ndash;&nbsp;domain:takeHeapSnapshotWithCallback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:collectGarbageWithCallback:">&ndash;&nbsp;domain:collectGarbageWithCallback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:getObjectByHeapObjectIdWithObjectId:objectGroup:callback:">&ndash;&nbsp;domain:getObjectByHeapObjectIdWithObjectId:objectGroup:callback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:getHeapObjectIdWithObjectId:callback:">&ndash;&nbsp;domain:getHeapObjectIdWithObjectId:callback:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:causesRecompilationWithCallback:" title="domain:causesRecompilationWithCallback:"></a>
+	<h3 class="subsubtitle method-title">domain:causesRecompilationWithCallback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDProfilerDomain *)<em>domain</em> causesRecompilationWithCallback:(void ( ^ ) ( NSNumber *result , id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:clearProfilesWithCallback:" title="domain:clearProfilesWithCallback:"></a>
+	<h3 class="subsubtitle method-title">domain:clearProfilesWithCallback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDProfilerDomain *)<em>domain</em> clearProfilesWithCallback:(void ( ^ ) ( id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:collectGarbageWithCallback:" title="domain:collectGarbageWithCallback:"></a>
+	<h3 class="subsubtitle method-title">domain:collectGarbageWithCallback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDProfilerDomain *)<em>domain</em> collectGarbageWithCallback:(void ( ^ ) ( id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:disableWithCallback:" title="domain:disableWithCallback:"></a>
+	<h3 class="subsubtitle method-title">domain:disableWithCallback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDProfilerDomain *)<em>domain</em> disableWithCallback:(void ( ^ ) ( id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:enableWithCallback:" title="domain:enableWithCallback:"></a>
+	<h3 class="subsubtitle method-title">domain:enableWithCallback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDProfilerDomain *)<em>domain</em> enableWithCallback:(void ( ^ ) ( id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:getHeapObjectIdWithObjectId:callback:" title="domain:getHeapObjectIdWithObjectId:callback:"></a>
+	<h3 class="subsubtitle method-title">domain:getHeapObjectIdWithObjectId:callback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDProfilerDomain *)<em>domain</em> getHeapObjectIdWithObjectId:(NSString *)<em>objectId</em> callback:(void ( ^ ) ( NSString *heapSnapshotObjectId , id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:getObjectByHeapObjectIdWithObjectId:objectGroup:callback:" title="domain:getObjectByHeapObjectIdWithObjectId:objectGroup:callback:"></a>
+	<h3 class="subsubtitle method-title">domain:getObjectByHeapObjectIdWithObjectId:objectGroup:callback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDProfilerDomain *)<em>domain</em> getObjectByHeapObjectIdWithObjectId:(NSString *)<em>objectId</em> objectGroup:(NSString *)<em>objectGroup</em> callback:(void ( ^ ) ( PDRuntimeRemoteObject *result , id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:getProfileHeadersWithCallback:" title="domain:getProfileHeadersWithCallback:"></a>
+	<h3 class="subsubtitle method-title">domain:getProfileHeadersWithCallback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDProfilerDomain *)<em>domain</em> getProfileHeadersWithCallback:(void ( ^ ) ( NSArray *headers , id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:getProfileWithType:uid:callback:" title="domain:getProfileWithType:uid:callback:"></a>
+	<h3 class="subsubtitle method-title">domain:getProfileWithType:uid:callback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDProfilerDomain *)<em>domain</em> getProfileWithType:(NSString *)<em>type</em> uid:(NSNumber *)<em>uid</em> callback:(void ( ^ ) ( PDProfilerProfile *profile , id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:hasHeapProfilerWithCallback:" title="domain:hasHeapProfilerWithCallback:"></a>
+	<h3 class="subsubtitle method-title">domain:hasHeapProfilerWithCallback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDProfilerDomain *)<em>domain</em> hasHeapProfilerWithCallback:(void ( ^ ) ( NSNumber *result , id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:isSamplingWithCallback:" title="domain:isSamplingWithCallback:"></a>
+	<h3 class="subsubtitle method-title">domain:isSamplingWithCallback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDProfilerDomain *)<em>domain</em> isSamplingWithCallback:(void ( ^ ) ( NSNumber *result , id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:removeProfileWithType:uid:callback:" title="domain:removeProfileWithType:uid:callback:"></a>
+	<h3 class="subsubtitle method-title">domain:removeProfileWithType:uid:callback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDProfilerDomain *)<em>domain</em> removeProfileWithType:(NSString *)<em>type</em> uid:(NSNumber *)<em>uid</em> callback:(void ( ^ ) ( id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:startWithCallback:" title="domain:startWithCallback:"></a>
+	<h3 class="subsubtitle method-title">domain:startWithCallback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDProfilerDomain *)<em>domain</em> startWithCallback:(void ( ^ ) ( id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:stopWithCallback:" title="domain:stopWithCallback:"></a>
+	<h3 class="subsubtitle method-title">domain:stopWithCallback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDProfilerDomain *)<em>domain</em> stopWithCallback:(void ( ^ ) ( id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:takeHeapSnapshotWithCallback:" title="domain:takeHeapSnapshotWithCallback:"></a>
+	<h3 class="subsubtitle method-title">domain:takeHeapSnapshotWithCallback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDProfilerDomain *)<em>domain</em> takeHeapSnapshotWithCallback:(void ( ^ ) ( id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Square. All rights reserved. (Last updated: 2013-08-20)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 840)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

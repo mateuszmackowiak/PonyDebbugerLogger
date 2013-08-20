@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDCSSSelectorProfile.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDCSSSelectorProfile</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>
+			
+			<NodeRef refid="21"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDCSSSelectorProfile/setTotalTime:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *totalTime</Declaration>
+			
+			
+			<Anchor>//api/name/totalTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDCSSSelectorProfile/totalTime</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *totalTime</Declaration>
+			
+			
+			<Anchor>//api/name/totalTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDCSSSelectorProfile/setData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSArray *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDCSSSelectorProfile/data</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSArray *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		033D6F38C2B045C5A9ED161A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78654B42DE274605A85B3F96 /* libPods.a */; };
 		9A3E44B817C3EF6300EBF85D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A3E44B717C3EF6300EBF85D /* UIKit.framework */; };
 		9A3E44BA17C3EF6300EBF85D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A3E44B917C3EF6300EBF85D /* Foundation.framework */; };
 		9A3E44BC17C3EF6300EBF85D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A3E44BB17C3EF6300EBF85D /* CoreGraphics.framework */; };
@@ -19,9 +20,12 @@
 		9A3E44D117C3EF6300EBF85D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3E44CF17C3EF6300EBF85D /* MainStoryboard_iPhone.storyboard */; };
 		9A3E44D417C3EF6300EBF85D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3E44D217C3EF6300EBF85D /* MainStoryboard_iPad.storyboard */; };
 		9A3E44D717C3EF6300EBF85D /* MMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3E44D617C3EF6300EBF85D /* MMViewController.m */; };
+		9A882ACA17C3F84800A7321A /* PonyDebuggerLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A882AC917C3F84800A7321A /* PonyDebuggerLogger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4403AF147A9F4336829EF2EE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		78654B42DE274605A85B3F96 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A3E44B417C3EF6300EBF85D /* PonyDebuggerLoggerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PonyDebuggerLoggerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A3E44B717C3EF6300EBF85D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9A3E44B917C3EF6300EBF85D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +43,8 @@
 		9A3E44D317C3EF6300EBF85D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		9A3E44D517C3EF6300EBF85D /* MMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMViewController.h; sourceTree = "<group>"; };
 		9A3E44D617C3EF6300EBF85D /* MMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMViewController.m; sourceTree = "<group>"; };
+		9A882AC817C3F84800A7321A /* PonyDebuggerLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PonyDebuggerLogger.h; path = Source/PonyDebuggerLogger.h; sourceTree = "<group>"; };
+		9A882AC917C3F84800A7321A /* PonyDebuggerLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PonyDebuggerLogger.m; path = Source/PonyDebuggerLogger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +55,7 @@
 				9A3E44B817C3EF6300EBF85D /* UIKit.framework in Frameworks */,
 				9A3E44BA17C3EF6300EBF85D /* Foundation.framework in Frameworks */,
 				9A3E44BC17C3EF6300EBF85D /* CoreGraphics.framework in Frameworks */,
+				033D6F38C2B045C5A9ED161A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,9 +65,11 @@
 		9A3E44AB17C3EF6300EBF85D = {
 			isa = PBXGroup;
 			children = (
+				9A882AC717C3F7F200A7321A /* PonyDebugger */,
 				9A3E44BD17C3EF6300EBF85D /* PonyDebuggerLoggerTest */,
 				9A3E44B617C3EF6300EBF85D /* Frameworks */,
 				9A3E44B517C3EF6300EBF85D /* Products */,
+				4403AF147A9F4336829EF2EE /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +87,7 @@
 				9A3E44B717C3EF6300EBF85D /* UIKit.framework */,
 				9A3E44B917C3EF6300EBF85D /* Foundation.framework */,
 				9A3E44BB17C3EF6300EBF85D /* CoreGraphics.framework */,
+				78654B42DE274605A85B3F96 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,6 +120,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9A882AC717C3F7F200A7321A /* PonyDebugger */ = {
+			isa = PBXGroup;
+			children = (
+				9A882AC817C3F84800A7321A /* PonyDebuggerLogger.h */,
+				9A882AC917C3F84800A7321A /* PonyDebuggerLogger.m */,
+			);
+			name = PonyDebugger;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -117,9 +136,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A3E44DA17C3EF6300EBF85D /* Build configuration list for PBXNativeTarget "PonyDebuggerLoggerTest" */;
 			buildPhases = (
+				08AEF7966BCC4C3EA60EA16E /* Check Pods Manifest.lock */,
 				9A3E44B017C3EF6300EBF85D /* Sources */,
 				9A3E44B117C3EF6300EBF85D /* Frameworks */,
 				9A3E44B217C3EF6300EBF85D /* Resources */,
+				CDFDDAD072C44E4A94235102 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,6 +194,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08AEF7966BCC4C3EA60EA16E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		CDFDDAD072C44E4A94235102 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9A3E44B017C3EF6300EBF85D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -181,6 +233,7 @@
 				9A3E44C417C3EF6300EBF85D /* main.m in Sources */,
 				9A3E44C817C3EF6300EBF85D /* MMAppDelegate.m in Sources */,
 				9A3E44D717C3EF6300EBF85D /* MMViewController.m in Sources */,
+				9A882ACA17C3F84800A7321A /* PonyDebuggerLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +327,7 @@
 		};
 		9A3E44DB17C3EF6300EBF85D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4403AF147A9F4336829EF2EE /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PonyDebuggerLoggerTest/PonyDebuggerLoggerTest-Prefix.pch";
@@ -285,6 +339,7 @@
 		};
 		9A3E44DC17C3EF6300EBF85D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4403AF147A9F4336829EF2EE /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PonyDebuggerLoggerTest/PonyDebuggerLoggerTest-Prefix.pch";
@@ -313,6 +368,7 @@
 				9A3E44DC17C3EF6300EBF85D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

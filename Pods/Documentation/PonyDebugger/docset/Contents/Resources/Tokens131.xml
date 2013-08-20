@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/PDInspectorCommandDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/PDInspectorCommandDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDInspectorDomain.h</DeclaredIn>
+			
+			<NodeRef refid="131"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDInspectorCommandDelegate/domain:enableWithCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDInspectorDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDInspectorDomain *)domain enableWithCallback:(void ( ^ ) ( id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:enableWithCallback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDInspectorCommandDelegate/domain:disableWithCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDInspectorDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDInspectorDomain *)domain disableWithCallback:(void ( ^ ) ( id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:disableWithCallback:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

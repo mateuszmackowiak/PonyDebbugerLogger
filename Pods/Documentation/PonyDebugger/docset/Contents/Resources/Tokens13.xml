@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDCSSCSSStyleId.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDCSSCSSStyleId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>
+			
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDCSSCSSStyleId/setStyleSheetId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *styleSheetId</Declaration>
+			
+			
+			<Anchor>//api/name/styleSheetId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDCSSCSSStyleId/styleSheetId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *styleSheetId</Declaration>
+			
+			
+			<Anchor>//api/name/styleSheetId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDCSSCSSStyleId/setOrdinal:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *ordinal</Declaration>
+			
+			
+			<Anchor>//api/name/ordinal</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDCSSCSSStyleId/ordinal</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *ordinal</Declaration>
+			
+			
+			<Anchor>//api/name/ordinal</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

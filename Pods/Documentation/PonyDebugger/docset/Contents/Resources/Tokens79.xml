@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDNetworkWebSocketRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDNetworkWebSocketRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>
+			
+			<NodeRef refid="79"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDNetworkWebSocketRequest/setRequestKey3:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *requestKey3</Declaration>
+			
+			
+			<Anchor>//api/name/requestKey3</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDNetworkWebSocketRequest/requestKey3</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *requestKey3</Declaration>
+			
+			
+			<Anchor>//api/name/requestKey3</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDNetworkWebSocketRequest/setHeaders:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *headers</Declaration>
+			
+			
+			<Anchor>//api/name/headers</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDNetworkWebSocketRequest/headers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *headers</Declaration>
+			
+			
+			<Anchor>//api/name/headers</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

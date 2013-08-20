@@ -1,0 +1,400 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>PDRuntimeCommandDelegate Protocol Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 840)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">PonyDebugger 0.3.0 </a></h1>
+				<a id="developerHome" href="../index.html">Square</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">PDRuntimeCommandDelegate Protocol Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/domain:callFunctionOnWithObjectId:functionDeclaration:arguments:doNotPauseOnExceptionsAndMuteConsole:returnByValue:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:callFunctionOnWithObjectId:functionDeclaration:arguments:doNotPauseOnExceptionsAndMuteConsole:returnByValue:callback:</option>
+	
+	<option value="//api/name/domain:evaluateWithExpression:objectGroup:includeCommandLineAPI:doNotPauseOnExceptionsAndMuteConsole:contextId:returnByValue:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:evaluateWithExpression:objectGroup:includeCommandLineAPI:doNotPauseOnExceptionsAndMuteConsole:contextId:returnByValue:callback:</option>
+	
+	<option value="//api/name/domain:getPropertiesWithObjectId:ownProperties:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:getPropertiesWithObjectId:ownProperties:callback:</option>
+	
+	<option value="//api/name/domain:releaseObjectGroupWithObjectGroup:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:releaseObjectGroupWithObjectGroup:callback:</option>
+	
+	<option value="//api/name/domain:releaseObjectWithObjectId:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:releaseObjectWithObjectId:callback:</option>
+	
+	<option value="//api/name/domain:runWithCallback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:runWithCallback:</option>
+	
+	<option value="//api/name/domain:setReportExecutionContextCreationWithEnabled:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:setReportExecutionContextCreationWithEnabled:callback:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:callFunctionOnWithObjectId:functionDeclaration:arguments:doNotPauseOnExceptionsAndMuteConsole:returnByValue:callback:">domain:callFunctionOnWithObjectId:functionDeclaration:arguments:doNotPauseOnExceptionsAndMuteConsole:returnByValue:callback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:evaluateWithExpression:objectGroup:includeCommandLineAPI:doNotPauseOnExceptionsAndMuteConsole:contextId:returnByValue:callback:">domain:evaluateWithExpression:objectGroup:includeCommandLineAPI:doNotPauseOnExceptionsAndMuteConsole:contextId:returnByValue:callback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:getPropertiesWithObjectId:ownProperties:callback:">domain:getPropertiesWithObjectId:ownProperties:callback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:releaseObjectGroupWithObjectGroup:callback:">domain:releaseObjectGroupWithObjectGroup:callback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:releaseObjectWithObjectId:callback:">domain:releaseObjectWithObjectId:callback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:runWithCallback:">domain:runWithCallback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:setReportExecutionContextCreationWithEnabled:callback:">domain:setReportExecutionContextCreationWithEnabled:callback:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="PDRuntimeCommandDelegate Protocol Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">PDRuntimeCommandDelegate Protocol Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value"><a href="../Protocols/PDCommandDelegate.html">PDCommandDelegate</a></td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">PDRuntimeDomain.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:evaluateWithExpression:objectGroup:includeCommandLineAPI:doNotPauseOnExceptionsAndMuteConsole:contextId:returnByValue:callback:">&ndash;&nbsp;domain:evaluateWithExpression:objectGroup:includeCommandLineAPI:doNotPauseOnExceptionsAndMuteConsole:contextId:returnByValue:callback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:callFunctionOnWithObjectId:functionDeclaration:arguments:doNotPauseOnExceptionsAndMuteConsole:returnByValue:callback:">&ndash;&nbsp;domain:callFunctionOnWithObjectId:functionDeclaration:arguments:doNotPauseOnExceptionsAndMuteConsole:returnByValue:callback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:getPropertiesWithObjectId:ownProperties:callback:">&ndash;&nbsp;domain:getPropertiesWithObjectId:ownProperties:callback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:releaseObjectWithObjectId:callback:">&ndash;&nbsp;domain:releaseObjectWithObjectId:callback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:releaseObjectGroupWithObjectGroup:callback:">&ndash;&nbsp;domain:releaseObjectGroupWithObjectGroup:callback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:runWithCallback:">&ndash;&nbsp;domain:runWithCallback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:setReportExecutionContextCreationWithEnabled:callback:">&ndash;&nbsp;domain:setReportExecutionContextCreationWithEnabled:callback:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:callFunctionOnWithObjectId:functionDeclaration:arguments:doNotPauseOnExceptionsAndMuteConsole:returnByValue:callback:" title="domain:callFunctionOnWithObjectId:functionDeclaration:arguments:doNotPauseOnExceptionsAndMuteConsole:returnByValue:callback:"></a>
+	<h3 class="subsubtitle method-title">domain:callFunctionOnWithObjectId:functionDeclaration:arguments:doNotPauseOnExceptionsAndMuteConsole:returnByValue:callback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDRuntimeDomain *)<em>domain</em> callFunctionOnWithObjectId:(NSString *)<em>objectId</em> functionDeclaration:(NSString *)<em>functionDeclaration</em> arguments:(NSArray *)<em>arguments</em> doNotPauseOnExceptionsAndMuteConsole:(NSNumber *)<em>doNotPauseOnExceptionsAndMuteConsole</em> returnByValue:(NSNumber *)<em>returnByValue</em> callback:(void ( ^ ) ( PDRuntimeRemoteObject *result , NSNumber *wasThrown , id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:evaluateWithExpression:objectGroup:includeCommandLineAPI:doNotPauseOnExceptionsAndMuteConsole:contextId:returnByValue:callback:" title="domain:evaluateWithExpression:objectGroup:includeCommandLineAPI:doNotPauseOnExceptionsAndMuteConsole:contextId:returnByValue:callback:"></a>
+	<h3 class="subsubtitle method-title">domain:evaluateWithExpression:objectGroup:includeCommandLineAPI:doNotPauseOnExceptionsAndMuteConsole:contextId:returnByValue:callback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDRuntimeDomain *)<em>domain</em> evaluateWithExpression:(NSString *)<em>expression</em> objectGroup:(NSString *)<em>objectGroup</em> includeCommandLineAPI:(NSNumber *)<em>includeCommandLineAPI</em> doNotPauseOnExceptionsAndMuteConsole:(NSNumber *)<em>doNotPauseOnExceptionsAndMuteConsole</em> contextId:(NSNumber *)<em>contextId</em> returnByValue:(NSNumber *)<em>returnByValue</em> callback:(void ( ^ ) ( PDRuntimeRemoteObject *result , NSNumber *wasThrown , id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:getPropertiesWithObjectId:ownProperties:callback:" title="domain:getPropertiesWithObjectId:ownProperties:callback:"></a>
+	<h3 class="subsubtitle method-title">domain:getPropertiesWithObjectId:ownProperties:callback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDRuntimeDomain *)<em>domain</em> getPropertiesWithObjectId:(NSString *)<em>objectId</em> ownProperties:(NSNumber *)<em>ownProperties</em> callback:(void ( ^ ) ( NSArray *result , id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:releaseObjectGroupWithObjectGroup:callback:" title="domain:releaseObjectGroupWithObjectGroup:callback:"></a>
+	<h3 class="subsubtitle method-title">domain:releaseObjectGroupWithObjectGroup:callback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDRuntimeDomain *)<em>domain</em> releaseObjectGroupWithObjectGroup:(NSString *)<em>objectGroup</em> callback:(void ( ^ ) ( id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:releaseObjectWithObjectId:callback:" title="domain:releaseObjectWithObjectId:callback:"></a>
+	<h3 class="subsubtitle method-title">domain:releaseObjectWithObjectId:callback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDRuntimeDomain *)<em>domain</em> releaseObjectWithObjectId:(NSString *)<em>objectId</em> callback:(void ( ^ ) ( id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:runWithCallback:" title="domain:runWithCallback:"></a>
+	<h3 class="subsubtitle method-title">domain:runWithCallback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDRuntimeDomain *)<em>domain</em> runWithCallback:(void ( ^ ) ( id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:setReportExecutionContextCreationWithEnabled:callback:" title="domain:setReportExecutionContextCreationWithEnabled:callback:"></a>
+	<h3 class="subsubtitle method-title">domain:setReportExecutionContextCreationWithEnabled:callback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDRuntimeDomain *)<em>domain</em> setReportExecutionContextCreationWithEnabled:(NSNumber *)<em>enabled</em> callback:(void ( ^ ) ( id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Square. All rights reserved. (Last updated: 2013-08-20)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 840)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

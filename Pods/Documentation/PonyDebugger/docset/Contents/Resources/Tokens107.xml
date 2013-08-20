@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSArray+PDRuntimePropertyDescriptor.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSArray(PDRuntimePropertyDescriptor)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSArray+PDRuntimePropertyDescriptor.h</DeclaredIn>
+			
+			<NodeRef refid="107"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSArray(PDRuntimePropertyDescriptor)/PD_valueForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSArray+PDRuntimePropertyDescriptor.h</DeclaredIn>			
+			
+			<Declaration>- (id)PD_valueForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/PD_valueForKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSArray(PDRuntimePropertyDescriptor)/PD_propertiesForPropertyDescriptors</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSArray+PDRuntimePropertyDescriptor.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)PD_propertiesForPropertyDescriptors</Declaration>
+			
+			
+			<Anchor>//api/name/PD_propertiesForPropertyDescriptors</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSArray(PDRuntimePropertyDescriptor)/PD_propertyDescriptorForPropertyObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSArray+PDRuntimePropertyDescriptor.h</DeclaredIn>			
+			
+			<Declaration>- (PDRuntimePropertyDescriptor *)PD_propertyDescriptorForPropertyObject:(NSObject *)property</Declaration>
+			
+			
+			<Anchor>//api/name/PD_propertyDescriptorForPropertyObject:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/PDDatabaseCommandDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/PDDatabaseCommandDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDatabaseDomain.h</DeclaredIn>
+			
+			<NodeRef refid="127"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDDatabaseCommandDelegate/domain:enableWithCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDatabaseDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDDatabaseDomain *)domain enableWithCallback:(void ( ^ ) ( id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:enableWithCallback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDDatabaseCommandDelegate/domain:disableWithCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDatabaseDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDDatabaseDomain *)domain disableWithCallback:(void ( ^ ) ( id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:disableWithCallback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDDatabaseCommandDelegate/domain:getDatabaseTableNamesWithDatabaseId:callback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDatabaseDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDDatabaseDomain *)domain getDatabaseTableNamesWithDatabaseId:(NSString *)databaseId callback:(void ( ^ ) ( NSArray *tableNames , id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:getDatabaseTableNamesWithDatabaseId:callback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDDatabaseCommandDelegate/domain:executeSQLWithDatabaseId:query:callback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDatabaseDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDDatabaseDomain *)domain executeSQLWithDatabaseId:(NSString *)databaseId query:(NSString *)query callback:(void ( ^ ) ( NSNumber *success , NSNumber *transactionId , id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:executeSQLWithDatabaseId:query:callback:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

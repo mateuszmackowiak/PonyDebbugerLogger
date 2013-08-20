@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDNetworkWebSocketFrame.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDNetworkWebSocketFrame</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>
+			
+			<NodeRef refid="78"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDNetworkWebSocketFrame/setOpcode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *opcode</Declaration>
+			
+			
+			<Anchor>//api/name/opcode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDNetworkWebSocketFrame/opcode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *opcode</Declaration>
+			
+			
+			<Anchor>//api/name/opcode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDNetworkWebSocketFrame/setMask:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *mask</Declaration>
+			
+			
+			<Anchor>//api/name/mask</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDNetworkWebSocketFrame/mask</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *mask</Declaration>
+			
+			
+			<Anchor>//api/name/mask</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDNetworkWebSocketFrame/setPayloadData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *payloadData</Declaration>
+			
+			
+			<Anchor>//api/name/payloadData</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDNetworkWebSocketFrame/payloadData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *payloadData</Declaration>
+			
+			
+			<Anchor>//api/name/payloadData</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

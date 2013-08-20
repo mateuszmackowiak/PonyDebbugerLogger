@@ -1,0 +1,796 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>PDDebuggerCommandDelegate Protocol Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 840)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">PonyDebugger 0.3.0 </a></h1>
+				<a id="developerHome" href="../index.html">Square</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">PDDebuggerCommandDelegate Protocol Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/domain:canSetScriptSourceWithCallback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:canSetScriptSourceWithCallback:</option>
+	
+	<option value="//api/name/domain:causesRecompilationWithCallback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:causesRecompilationWithCallback:</option>
+	
+	<option value="//api/name/domain:compileScriptWithExpression:sourceURL:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:compileScriptWithExpression:sourceURL:callback:</option>
+	
+	<option value="//api/name/domain:continueToLocationWithLocation:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:continueToLocationWithLocation:callback:</option>
+	
+	<option value="//api/name/domain:disableWithCallback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:disableWithCallback:</option>
+	
+	<option value="//api/name/domain:enableWithCallback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:enableWithCallback:</option>
+	
+	<option value="//api/name/domain:evaluateOnCallFrameWithCallFrameId:expression:objectGroup:includeCommandLineAPI:doNotPauseOnExceptionsAndMuteConsole:returnByValue:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:evaluateOnCallFrameWithCallFrameId:expression:objectGroup:includeCommandLineAPI:doNotPauseOnExceptionsAndMuteConsole:returnByValue:callback:</option>
+	
+	<option value="//api/name/domain:getFunctionDetailsWithFunctionId:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:getFunctionDetailsWithFunctionId:callback:</option>
+	
+	<option value="//api/name/domain:getScriptSourceWithScriptId:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:getScriptSourceWithScriptId:callback:</option>
+	
+	<option value="//api/name/domain:pauseWithCallback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:pauseWithCallback:</option>
+	
+	<option value="//api/name/domain:removeBreakpointWithBreakpointId:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:removeBreakpointWithBreakpointId:callback:</option>
+	
+	<option value="//api/name/domain:restartFrameWithCallFrameId:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:restartFrameWithCallFrameId:callback:</option>
+	
+	<option value="//api/name/domain:resumeWithCallback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:resumeWithCallback:</option>
+	
+	<option value="//api/name/domain:runScriptWithScriptId:contextId:objectGroup:doNotPauseOnExceptionsAndMuteConsole:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:runScriptWithScriptId:contextId:objectGroup:doNotPauseOnExceptionsAndMuteConsole:callback:</option>
+	
+	<option value="//api/name/domain:searchInContentWithScriptId:query:caseSensitive:isRegex:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:searchInContentWithScriptId:query:caseSensitive:isRegex:callback:</option>
+	
+	<option value="//api/name/domain:setBreakpointByUrlWithLineNumber:url:urlRegex:columnNumber:condition:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:setBreakpointByUrlWithLineNumber:url:urlRegex:columnNumber:condition:callback:</option>
+	
+	<option value="//api/name/domain:setBreakpointWithLocation:condition:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:setBreakpointWithLocation:condition:callback:</option>
+	
+	<option value="//api/name/domain:setBreakpointsActiveWithActive:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:setBreakpointsActiveWithActive:callback:</option>
+	
+	<option value="//api/name/domain:setOverlayMessageWithMessage:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:setOverlayMessageWithMessage:callback:</option>
+	
+	<option value="//api/name/domain:setPauseOnExceptionsWithState:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:setPauseOnExceptionsWithState:callback:</option>
+	
+	<option value="//api/name/domain:setScriptSourceWithScriptId:scriptSource:preview:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:setScriptSourceWithScriptId:scriptSource:preview:callback:</option>
+	
+	<option value="//api/name/domain:stepIntoWithCallback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:stepIntoWithCallback:</option>
+	
+	<option value="//api/name/domain:stepOutWithCallback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:stepOutWithCallback:</option>
+	
+	<option value="//api/name/domain:stepOverWithCallback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:stepOverWithCallback:</option>
+	
+	<option value="//api/name/domain:supportsSeparateScriptCompilationAndExecutionWithCallback:">&nbsp;&nbsp;&nbsp;&nbsp;- domain:supportsSeparateScriptCompilationAndExecutionWithCallback:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:canSetScriptSourceWithCallback:">domain:canSetScriptSourceWithCallback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:causesRecompilationWithCallback:">domain:causesRecompilationWithCallback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:compileScriptWithExpression:sourceURL:callback:">domain:compileScriptWithExpression:sourceURL:callback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:continueToLocationWithLocation:callback:">domain:continueToLocationWithLocation:callback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:disableWithCallback:">domain:disableWithCallback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:enableWithCallback:">domain:enableWithCallback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:evaluateOnCallFrameWithCallFrameId:expression:objectGroup:includeCommandLineAPI:doNotPauseOnExceptionsAndMuteConsole:returnByValue:callback:">domain:evaluateOnCallFrameWithCallFrameId:expression:objectGroup:includeCommandLineAPI:doNotPauseOnExceptionsAndMuteConsole:returnByValue:callback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:getFunctionDetailsWithFunctionId:callback:">domain:getFunctionDetailsWithFunctionId:callback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:getScriptSourceWithScriptId:callback:">domain:getScriptSourceWithScriptId:callback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:pauseWithCallback:">domain:pauseWithCallback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:removeBreakpointWithBreakpointId:callback:">domain:removeBreakpointWithBreakpointId:callback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:restartFrameWithCallFrameId:callback:">domain:restartFrameWithCallFrameId:callback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:resumeWithCallback:">domain:resumeWithCallback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:runScriptWithScriptId:contextId:objectGroup:doNotPauseOnExceptionsAndMuteConsole:callback:">domain:runScriptWithScriptId:contextId:objectGroup:doNotPauseOnExceptionsAndMuteConsole:callback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:searchInContentWithScriptId:query:caseSensitive:isRegex:callback:">domain:searchInContentWithScriptId:query:caseSensitive:isRegex:callback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:setBreakpointByUrlWithLineNumber:url:urlRegex:columnNumber:condition:callback:">domain:setBreakpointByUrlWithLineNumber:url:urlRegex:columnNumber:condition:callback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:setBreakpointWithLocation:condition:callback:">domain:setBreakpointWithLocation:condition:callback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:setBreakpointsActiveWithActive:callback:">domain:setBreakpointsActiveWithActive:callback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:setOverlayMessageWithMessage:callback:">domain:setOverlayMessageWithMessage:callback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:setPauseOnExceptionsWithState:callback:">domain:setPauseOnExceptionsWithState:callback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:setScriptSourceWithScriptId:scriptSource:preview:callback:">domain:setScriptSourceWithScriptId:scriptSource:preview:callback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:stepIntoWithCallback:">domain:stepIntoWithCallback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:stepOutWithCallback:">domain:stepOutWithCallback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:stepOverWithCallback:">domain:stepOverWithCallback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domain:supportsSeparateScriptCompilationAndExecutionWithCallback:">domain:supportsSeparateScriptCompilationAndExecutionWithCallback:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="PDDebuggerCommandDelegate Protocol Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">PDDebuggerCommandDelegate Protocol Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value"><a href="../Protocols/PDCommandDelegate.html">PDCommandDelegate</a></td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">PDDebuggerDomain.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:causesRecompilationWithCallback:">&ndash;&nbsp;domain:causesRecompilationWithCallback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:supportsSeparateScriptCompilationAndExecutionWithCallback:">&ndash;&nbsp;domain:supportsSeparateScriptCompilationAndExecutionWithCallback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:enableWithCallback:">&ndash;&nbsp;domain:enableWithCallback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:disableWithCallback:">&ndash;&nbsp;domain:disableWithCallback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:setBreakpointsActiveWithActive:callback:">&ndash;&nbsp;domain:setBreakpointsActiveWithActive:callback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:setBreakpointByUrlWithLineNumber:url:urlRegex:columnNumber:condition:callback:">&ndash;&nbsp;domain:setBreakpointByUrlWithLineNumber:url:urlRegex:columnNumber:condition:callback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:setBreakpointWithLocation:condition:callback:">&ndash;&nbsp;domain:setBreakpointWithLocation:condition:callback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:removeBreakpointWithBreakpointId:callback:">&ndash;&nbsp;domain:removeBreakpointWithBreakpointId:callback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:continueToLocationWithLocation:callback:">&ndash;&nbsp;domain:continueToLocationWithLocation:callback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:stepOverWithCallback:">&ndash;&nbsp;domain:stepOverWithCallback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:stepIntoWithCallback:">&ndash;&nbsp;domain:stepIntoWithCallback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:stepOutWithCallback:">&ndash;&nbsp;domain:stepOutWithCallback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:pauseWithCallback:">&ndash;&nbsp;domain:pauseWithCallback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:resumeWithCallback:">&ndash;&nbsp;domain:resumeWithCallback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:searchInContentWithScriptId:query:caseSensitive:isRegex:callback:">&ndash;&nbsp;domain:searchInContentWithScriptId:query:caseSensitive:isRegex:callback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:canSetScriptSourceWithCallback:">&ndash;&nbsp;domain:canSetScriptSourceWithCallback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:setScriptSourceWithScriptId:scriptSource:preview:callback:">&ndash;&nbsp;domain:setScriptSourceWithScriptId:scriptSource:preview:callback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:restartFrameWithCallFrameId:callback:">&ndash;&nbsp;domain:restartFrameWithCallFrameId:callback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:getScriptSourceWithScriptId:callback:">&ndash;&nbsp;domain:getScriptSourceWithScriptId:callback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:getFunctionDetailsWithFunctionId:callback:">&ndash;&nbsp;domain:getFunctionDetailsWithFunctionId:callback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:setPauseOnExceptionsWithState:callback:">&ndash;&nbsp;domain:setPauseOnExceptionsWithState:callback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:evaluateOnCallFrameWithCallFrameId:expression:objectGroup:includeCommandLineAPI:doNotPauseOnExceptionsAndMuteConsole:returnByValue:callback:">&ndash;&nbsp;domain:evaluateOnCallFrameWithCallFrameId:expression:objectGroup:includeCommandLineAPI:doNotPauseOnExceptionsAndMuteConsole:returnByValue:callback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:compileScriptWithExpression:sourceURL:callback:">&ndash;&nbsp;domain:compileScriptWithExpression:sourceURL:callback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:runScriptWithScriptId:contextId:objectGroup:doNotPauseOnExceptionsAndMuteConsole:callback:">&ndash;&nbsp;domain:runScriptWithScriptId:contextId:objectGroup:doNotPauseOnExceptionsAndMuteConsole:callback:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domain:setOverlayMessageWithMessage:callback:">&ndash;&nbsp;domain:setOverlayMessageWithMessage:callback:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:canSetScriptSourceWithCallback:" title="domain:canSetScriptSourceWithCallback:"></a>
+	<h3 class="subsubtitle method-title">domain:canSetScriptSourceWithCallback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDDebuggerDomain *)<em>domain</em> canSetScriptSourceWithCallback:(void ( ^ ) ( NSNumber *result , id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:causesRecompilationWithCallback:" title="domain:causesRecompilationWithCallback:"></a>
+	<h3 class="subsubtitle method-title">domain:causesRecompilationWithCallback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDDebuggerDomain *)<em>domain</em> causesRecompilationWithCallback:(void ( ^ ) ( NSNumber *result , id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:compileScriptWithExpression:sourceURL:callback:" title="domain:compileScriptWithExpression:sourceURL:callback:"></a>
+	<h3 class="subsubtitle method-title">domain:compileScriptWithExpression:sourceURL:callback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDDebuggerDomain *)<em>domain</em> compileScriptWithExpression:(NSString *)<em>expression</em> sourceURL:(NSString *)<em>sourceURL</em> callback:(void ( ^ ) ( NSString *scriptId , NSString *syntaxErrorMessage , id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:continueToLocationWithLocation:callback:" title="domain:continueToLocationWithLocation:callback:"></a>
+	<h3 class="subsubtitle method-title">domain:continueToLocationWithLocation:callback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDDebuggerDomain *)<em>domain</em> continueToLocationWithLocation:(PDDebuggerLocation *)<em>location</em> callback:(void ( ^ ) ( id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:disableWithCallback:" title="domain:disableWithCallback:"></a>
+	<h3 class="subsubtitle method-title">domain:disableWithCallback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDDebuggerDomain *)<em>domain</em> disableWithCallback:(void ( ^ ) ( id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:enableWithCallback:" title="domain:enableWithCallback:"></a>
+	<h3 class="subsubtitle method-title">domain:enableWithCallback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDDebuggerDomain *)<em>domain</em> enableWithCallback:(void ( ^ ) ( id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:evaluateOnCallFrameWithCallFrameId:expression:objectGroup:includeCommandLineAPI:doNotPauseOnExceptionsAndMuteConsole:returnByValue:callback:" title="domain:evaluateOnCallFrameWithCallFrameId:expression:objectGroup:includeCommandLineAPI:doNotPauseOnExceptionsAndMuteConsole:returnByValue:callback:"></a>
+	<h3 class="subsubtitle method-title">domain:evaluateOnCallFrameWithCallFrameId:expression:objectGroup:includeCommandLineAPI:doNotPauseOnExceptionsAndMuteConsole:returnByValue:callback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDDebuggerDomain *)<em>domain</em> evaluateOnCallFrameWithCallFrameId:(NSString *)<em>callFrameId</em> expression:(NSString *)<em>expression</em> objectGroup:(NSString *)<em>objectGroup</em> includeCommandLineAPI:(NSNumber *)<em>includeCommandLineAPI</em> doNotPauseOnExceptionsAndMuteConsole:(NSNumber *)<em>doNotPauseOnExceptionsAndMuteConsole</em> returnByValue:(NSNumber *)<em>returnByValue</em> callback:(void ( ^ ) ( PDRuntimeRemoteObject *result , NSNumber *wasThrown , id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:getFunctionDetailsWithFunctionId:callback:" title="domain:getFunctionDetailsWithFunctionId:callback:"></a>
+	<h3 class="subsubtitle method-title">domain:getFunctionDetailsWithFunctionId:callback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDDebuggerDomain *)<em>domain</em> getFunctionDetailsWithFunctionId:(NSString *)<em>functionId</em> callback:(void ( ^ ) ( PDDebuggerFunctionDetails *details , id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:getScriptSourceWithScriptId:callback:" title="domain:getScriptSourceWithScriptId:callback:"></a>
+	<h3 class="subsubtitle method-title">domain:getScriptSourceWithScriptId:callback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDDebuggerDomain *)<em>domain</em> getScriptSourceWithScriptId:(NSString *)<em>scriptId</em> callback:(void ( ^ ) ( NSString *scriptSource , id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:pauseWithCallback:" title="domain:pauseWithCallback:"></a>
+	<h3 class="subsubtitle method-title">domain:pauseWithCallback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDDebuggerDomain *)<em>domain</em> pauseWithCallback:(void ( ^ ) ( id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:removeBreakpointWithBreakpointId:callback:" title="domain:removeBreakpointWithBreakpointId:callback:"></a>
+	<h3 class="subsubtitle method-title">domain:removeBreakpointWithBreakpointId:callback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDDebuggerDomain *)<em>domain</em> removeBreakpointWithBreakpointId:(NSString *)<em>breakpointId</em> callback:(void ( ^ ) ( id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:restartFrameWithCallFrameId:callback:" title="domain:restartFrameWithCallFrameId:callback:"></a>
+	<h3 class="subsubtitle method-title">domain:restartFrameWithCallFrameId:callback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDDebuggerDomain *)<em>domain</em> restartFrameWithCallFrameId:(NSString *)<em>callFrameId</em> callback:(void ( ^ ) ( NSArray *callFrames , NSDictionary *result , id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:resumeWithCallback:" title="domain:resumeWithCallback:"></a>
+	<h3 class="subsubtitle method-title">domain:resumeWithCallback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDDebuggerDomain *)<em>domain</em> resumeWithCallback:(void ( ^ ) ( id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:runScriptWithScriptId:contextId:objectGroup:doNotPauseOnExceptionsAndMuteConsole:callback:" title="domain:runScriptWithScriptId:contextId:objectGroup:doNotPauseOnExceptionsAndMuteConsole:callback:"></a>
+	<h3 class="subsubtitle method-title">domain:runScriptWithScriptId:contextId:objectGroup:doNotPauseOnExceptionsAndMuteConsole:callback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDDebuggerDomain *)<em>domain</em> runScriptWithScriptId:(NSString *)<em>scriptId</em> contextId:(NSNumber *)<em>contextId</em> objectGroup:(NSString *)<em>objectGroup</em> doNotPauseOnExceptionsAndMuteConsole:(NSNumber *)<em>doNotPauseOnExceptionsAndMuteConsole</em> callback:(void ( ^ ) ( PDRuntimeRemoteObject *result , NSNumber *wasThrown , id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:searchInContentWithScriptId:query:caseSensitive:isRegex:callback:" title="domain:searchInContentWithScriptId:query:caseSensitive:isRegex:callback:"></a>
+	<h3 class="subsubtitle method-title">domain:searchInContentWithScriptId:query:caseSensitive:isRegex:callback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDDebuggerDomain *)<em>domain</em> searchInContentWithScriptId:(NSString *)<em>scriptId</em> query:(NSString *)<em>query</em> caseSensitive:(NSNumber *)<em>caseSensitive</em> isRegex:(NSNumber *)<em>isRegex</em> callback:(void ( ^ ) ( NSArray *result , id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:setBreakpointByUrlWithLineNumber:url:urlRegex:columnNumber:condition:callback:" title="domain:setBreakpointByUrlWithLineNumber:url:urlRegex:columnNumber:condition:callback:"></a>
+	<h3 class="subsubtitle method-title">domain:setBreakpointByUrlWithLineNumber:url:urlRegex:columnNumber:condition:callback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDDebuggerDomain *)<em>domain</em> setBreakpointByUrlWithLineNumber:(NSNumber *)<em>lineNumber</em> url:(NSString *)<em>url</em> urlRegex:(NSString *)<em>urlRegex</em> columnNumber:(NSNumber *)<em>columnNumber</em> condition:(NSString *)<em>condition</em> callback:(void ( ^ ) ( NSString *breakpointId , NSArray *locations , id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:setBreakpointWithLocation:condition:callback:" title="domain:setBreakpointWithLocation:condition:callback:"></a>
+	<h3 class="subsubtitle method-title">domain:setBreakpointWithLocation:condition:callback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDDebuggerDomain *)<em>domain</em> setBreakpointWithLocation:(PDDebuggerLocation *)<em>location</em> condition:(NSString *)<em>condition</em> callback:(void ( ^ ) ( NSString *breakpointId , PDDebuggerLocation *actualLocation , id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:setBreakpointsActiveWithActive:callback:" title="domain:setBreakpointsActiveWithActive:callback:"></a>
+	<h3 class="subsubtitle method-title">domain:setBreakpointsActiveWithActive:callback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDDebuggerDomain *)<em>domain</em> setBreakpointsActiveWithActive:(NSNumber *)<em>active</em> callback:(void ( ^ ) ( id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:setOverlayMessageWithMessage:callback:" title="domain:setOverlayMessageWithMessage:callback:"></a>
+	<h3 class="subsubtitle method-title">domain:setOverlayMessageWithMessage:callback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDDebuggerDomain *)<em>domain</em> setOverlayMessageWithMessage:(NSString *)<em>message</em> callback:(void ( ^ ) ( id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:setPauseOnExceptionsWithState:callback:" title="domain:setPauseOnExceptionsWithState:callback:"></a>
+	<h3 class="subsubtitle method-title">domain:setPauseOnExceptionsWithState:callback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDDebuggerDomain *)<em>domain</em> setPauseOnExceptionsWithState:(NSString *)<em>state</em> callback:(void ( ^ ) ( id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:setScriptSourceWithScriptId:scriptSource:preview:callback:" title="domain:setScriptSourceWithScriptId:scriptSource:preview:callback:"></a>
+	<h3 class="subsubtitle method-title">domain:setScriptSourceWithScriptId:scriptSource:preview:callback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDDebuggerDomain *)<em>domain</em> setScriptSourceWithScriptId:(NSString *)<em>scriptId</em> scriptSource:(NSString *)<em>scriptSource</em> preview:(NSNumber *)<em>preview</em> callback:(void ( ^ ) ( NSArray *callFrames , NSDictionary *result , id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:stepIntoWithCallback:" title="domain:stepIntoWithCallback:"></a>
+	<h3 class="subsubtitle method-title">domain:stepIntoWithCallback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDDebuggerDomain *)<em>domain</em> stepIntoWithCallback:(void ( ^ ) ( id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:stepOutWithCallback:" title="domain:stepOutWithCallback:"></a>
+	<h3 class="subsubtitle method-title">domain:stepOutWithCallback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDDebuggerDomain *)<em>domain</em> stepOutWithCallback:(void ( ^ ) ( id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:stepOverWithCallback:" title="domain:stepOverWithCallback:"></a>
+	<h3 class="subsubtitle method-title">domain:stepOverWithCallback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDDebuggerDomain *)<em>domain</em> stepOverWithCallback:(void ( ^ ) ( id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domain:supportsSeparateScriptCompilationAndExecutionWithCallback:" title="domain:supportsSeparateScriptCompilationAndExecutionWithCallback:"></a>
+	<h3 class="subsubtitle method-title">domain:supportsSeparateScriptCompilationAndExecutionWithCallback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)domain:(PDDebuggerDomain *)<em>domain</em> supportsSeparateScriptCompilationAndExecutionWithCallback:(void ( ^ ) ( NSNumber *result , id error ))<em>callback</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Square. All rights reserved. (Last updated: 2013-08-20)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 840)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

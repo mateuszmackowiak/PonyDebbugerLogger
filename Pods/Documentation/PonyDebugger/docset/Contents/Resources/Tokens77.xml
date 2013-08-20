@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDNetworkResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDNetworkResponse</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>
+			
+			<NodeRef refid="77"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDNetworkResponse/setUrl:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDNetworkResponse/url</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDNetworkResponse/setStatus:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDNetworkResponse/status</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDNetworkResponse/setStatusText:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *statusText</Declaration>
+			
+			
+			<Anchor>//api/name/statusText</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDNetworkResponse/statusText</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *statusText</Declaration>
+			
+			
+			<Anchor>//api/name/statusText</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDNetworkResponse/setHeaders:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *headers</Declaration>
+			
+			
+			<Anchor>//api/name/headers</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDNetworkResponse/headers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *headers</Declaration>
+			
+			
+			<Anchor>//api/name/headers</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDNetworkResponse/setHeadersText:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *headersText</Declaration>
+			
+			
+			<Anchor>//api/name/headersText</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDNetworkResponse/headersText</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *headersText</Declaration>
+			
+			
+			<Anchor>//api/name/headersText</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDNetworkResponse/setMimeType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *mimeType</Declaration>
+			
+			
+			<Anchor>//api/name/mimeType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDNetworkResponse/mimeType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *mimeType</Declaration>
+			
+			
+			<Anchor>//api/name/mimeType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDNetworkResponse/setRequestHeaders:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *requestHeaders</Declaration>
+			
+			
+			<Anchor>//api/name/requestHeaders</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDNetworkResponse/requestHeaders</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *requestHeaders</Declaration>
+			
+			
+			<Anchor>//api/name/requestHeaders</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDNetworkResponse/setRequestHeadersText:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *requestHeadersText</Declaration>
+			
+			
+			<Anchor>//api/name/requestHeadersText</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDNetworkResponse/requestHeadersText</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *requestHeadersText</Declaration>
+			
+			
+			<Anchor>//api/name/requestHeadersText</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDNetworkResponse/setConnectionReused:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *connectionReused</Declaration>
+			
+			
+			<Anchor>//api/name/connectionReused</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDNetworkResponse/connectionReused</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *connectionReused</Declaration>
+			
+			
+			<Anchor>//api/name/connectionReused</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDNetworkResponse/setConnectionId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *connectionId</Declaration>
+			
+			
+			<Anchor>//api/name/connectionId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDNetworkResponse/connectionId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *connectionId</Declaration>
+			
+			
+			<Anchor>//api/name/connectionId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDNetworkResponse/setFromDiskCache:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *fromDiskCache</Declaration>
+			
+			
+			<Anchor>//api/name/fromDiskCache</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDNetworkResponse/fromDiskCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *fromDiskCache</Declaration>
+			
+			
+			<Anchor>//api/name/fromDiskCache</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDNetworkResponse/setTiming:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) PDNetworkResourceTiming *timing</Declaration>
+			
+			
+			<Anchor>//api/name/timing</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDNetworkResponse/timing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) PDNetworkResourceTiming *timing</Declaration>
+			
+			
+			<Anchor>//api/name/timing</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDNetworkResponse/initWithURLResponse:request:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkDomainController.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithURLResponse:(NSURLResponse *)response request:(NSURLRequest *)request</Declaration>
+			
+			
+			<Anchor>//api/name/initWithURLResponse:request:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PDNetworkResponse/networkResponseWithURLResponse:request:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDNetworkDomainController.h</DeclaredIn>			
+			
+			<Declaration>+ (PDNetworkResponse *)networkResponseWithURLResponse:(NSURLResponse *)response request:(NSURLRequest *)request</Declaration>
+			
+			
+			<Anchor>//api/name/networkResponseWithURLResponse:request:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/PDPrettyStringPrinting.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/PDPrettyStringPrinting</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPrettyStringPrinter.h</DeclaredIn>
+			
+			<NodeRef refid="135"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDPrettyStringPrinting/canPrettyStringPrintRequest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPrettyStringPrinter.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)canPrettyStringPrintRequest:(NSURLRequest *)request</Declaration>
+			
+			
+			<Anchor>//api/name/canPrettyStringPrintRequest:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDPrettyStringPrinting/canPrettyStringPrintResponse:withRequest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPrettyStringPrinter.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)canPrettyStringPrintResponse:(NSURLResponse *)response withRequest:(NSURLRequest *)request</Declaration>
+			
+			
+			<Anchor>//api/name/canPrettyStringPrintResponse:withRequest:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDPrettyStringPrinting/prettyStringForData:forRequest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPrettyStringPrinter.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)prettyStringForData:(NSData *)data forRequest:(NSURLRequest *)request</Declaration>
+			
+			
+			<Anchor>//api/name/prettyStringForData:forRequest:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDPrettyStringPrinting/prettyStringForData:forResponse:request:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPrettyStringPrinter.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)prettyStringForData:(NSData *)data forResponse:(NSURLResponse *)response request:(NSURLRequest *)request</Declaration>
+			
+			
+			<Anchor>//api/name/prettyStringForData:forResponse:request:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

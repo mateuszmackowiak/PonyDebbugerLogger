@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDConsoleDomain.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDConsoleDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDConsoleDomain.h</DeclaredIn>
+			
+			<NodeRef refid="27"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDConsoleDomain/setDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDConsoleDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;PDConsoleCommandDelegate,PDCommandDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDConsoleDomain/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDConsoleDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;PDConsoleCommandDelegate,PDCommandDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDConsoleDomain/messageAddedWithMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDConsoleDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)messageAddedWithMessage:(PDConsoleConsoleMessage *)message</Declaration>
+			
+			
+			<Anchor>//api/name/messageAddedWithMessage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDConsoleDomain/messageRepeatCountUpdatedWithCount:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDConsoleDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)messageRepeatCountUpdatedWithCount:(NSNumber *)count</Declaration>
+			
+			
+			<Anchor>//api/name/messageRepeatCountUpdatedWithCount:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDConsoleDomain/messagesCleared</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDConsoleDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)messagesCleared</Declaration>
+			
+			
+			<Anchor>//api/name/messagesCleared</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

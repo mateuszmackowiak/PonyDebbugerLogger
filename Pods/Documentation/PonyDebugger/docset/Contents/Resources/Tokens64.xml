@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDJSONPrettyStringPrinter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDJSONPrettyStringPrinter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPrettyStringPrinter.h</DeclaredIn>
+			
+			<NodeRef refid="64"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDJSONPrettyStringPrinter/setRedactedFields:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPrettyStringPrinter.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSSet *redactedFields</Declaration>
+			
+			
+			<Anchor>//api/name/redactedFields</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDJSONPrettyStringPrinter/redactedFields</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPrettyStringPrinter.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSSet *redactedFields</Declaration>
+			
+			
+			<Anchor>//api/name/redactedFields</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDJSONPrettyStringPrinter/initWithRedactedFields:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPrettyStringPrinter.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithRedactedFields:(NSArray *)redactedFields</Declaration>
+			
+			
+			<Anchor>//api/name/initWithRedactedFields:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDJSONPrettyStringPrinter/addRedactedField:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPrettyStringPrinter.h</DeclaredIn>			
+			
+			<Declaration>- (void)addRedactedField:(NSString *)field</Declaration>
+			
+			
+			<Anchor>//api/name/addRedactedField:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

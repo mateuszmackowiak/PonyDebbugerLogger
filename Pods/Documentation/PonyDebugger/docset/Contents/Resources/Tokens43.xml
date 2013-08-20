@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDDebuggerDomain.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDDebuggerDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebuggerDomain.h</DeclaredIn>
+			
+			<NodeRef refid="43"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebuggerDomain/setDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebuggerDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;PDDebuggerCommandDelegate,PDCommandDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDebuggerDomain/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebuggerDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;PDDebuggerCommandDelegate,PDCommandDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebuggerDomain/globalObjectCleared</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebuggerDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)globalObjectCleared</Declaration>
+			
+			
+			<Anchor>//api/name/globalObjectCleared</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebuggerDomain/scriptParsedWithScriptId:url:startLine:startColumn:endLine:endColumn:isContentScript:sourceMapURL:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebuggerDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)scriptParsedWithScriptId:(NSString *)scriptId url:(NSString *)url startLine:(NSNumber *)startLine startColumn:(NSNumber *)startColumn endLine:(NSNumber *)endLine endColumn:(NSNumber *)endColumn isContentScript:(NSNumber *)isContentScript sourceMapURL:(NSString *)sourceMapURL</Declaration>
+			
+			
+			<Anchor>//api/name/scriptParsedWithScriptId:url:startLine:startColumn:endLine:endColumn:isContentScript:sourceMapURL:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebuggerDomain/scriptFailedToParseWithUrl:scriptSource:startLine:errorLine:errorMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebuggerDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)scriptFailedToParseWithUrl:(NSString *)url scriptSource:(NSString *)scriptSource startLine:(NSNumber *)startLine errorLine:(NSNumber *)errorLine errorMessage:(NSString *)errorMessage</Declaration>
+			
+			
+			<Anchor>//api/name/scriptFailedToParseWithUrl:scriptSource:startLine:errorLine:errorMessage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebuggerDomain/breakpointResolvedWithBreakpointId:location:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebuggerDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)breakpointResolvedWithBreakpointId:(NSString *)breakpointId location:(PDDebuggerLocation *)location</Declaration>
+			
+			
+			<Anchor>//api/name/breakpointResolvedWithBreakpointId:location:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebuggerDomain/pausedWithCallFrames:reason:data:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebuggerDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)pausedWithCallFrames:(NSArray *)callFrames reason:(NSString *)reason data:(NSDictionary *)data</Declaration>
+			
+			
+			<Anchor>//api/name/pausedWithCallFrames:reason:data:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDebuggerDomain/resumed</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDebuggerDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)resumed</Declaration>
+			
+			
+			<Anchor>//api/name/resumed</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

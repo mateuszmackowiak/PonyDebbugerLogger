@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/PDFileSystemCommandDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/PDFileSystemCommandDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDFileSystemDomain.h</DeclaredIn>
+			
+			<NodeRef refid="129"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDFileSystemCommandDelegate/domain:enableWithCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDFileSystemDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDFileSystemDomain *)domain enableWithCallback:(void ( ^ ) ( id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:enableWithCallback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDFileSystemCommandDelegate/domain:disableWithCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDFileSystemDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDFileSystemDomain *)domain disableWithCallback:(void ( ^ ) ( id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:disableWithCallback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDFileSystemCommandDelegate/domain:requestFileSystemRootWithOrigin:type:callback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDFileSystemDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDFileSystemDomain *)domain requestFileSystemRootWithOrigin:(NSString *)origin type:(NSString *)type callback:(void ( ^ ) ( NSNumber *requestId , id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:requestFileSystemRootWithOrigin:type:callback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDFileSystemCommandDelegate/domain:requestDirectoryContentWithUrl:callback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDFileSystemDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDFileSystemDomain *)domain requestDirectoryContentWithUrl:(NSString *)url callback:(void ( ^ ) ( NSNumber *requestId , id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:requestDirectoryContentWithUrl:callback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDFileSystemCommandDelegate/domain:requestMetadataWithUrl:callback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDFileSystemDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDFileSystemDomain *)domain requestMetadataWithUrl:(NSString *)url callback:(void ( ^ ) ( NSNumber *requestId , id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:requestMetadataWithUrl:callback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDFileSystemCommandDelegate/domain:requestFileContentWithUrl:readAsText:start:end:charset:callback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDFileSystemDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDFileSystemDomain *)domain requestFileContentWithUrl:(NSString *)url readAsText:(NSNumber *)readAsText start:(NSNumber *)start end:(NSNumber *)end charset:(NSString *)charset callback:(void ( ^ ) ( NSNumber *requestId , id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:requestFileContentWithUrl:readAsText:start:end:charset:callback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDFileSystemCommandDelegate/domain:deleteEntryWithUrl:callback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDFileSystemDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDFileSystemDomain *)domain deleteEntryWithUrl:(NSString *)url callback:(void ( ^ ) ( NSNumber *requestId , id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:deleteEntryWithUrl:callback:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

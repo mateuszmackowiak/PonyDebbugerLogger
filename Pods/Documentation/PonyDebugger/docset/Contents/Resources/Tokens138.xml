@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/PDTimelineCommandDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/PDTimelineCommandDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDTimelineDomain.h</DeclaredIn>
+			
+			<NodeRef refid="138"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDTimelineCommandDelegate/domain:startWithMaxCallStackDepth:callback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDTimelineDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDTimelineDomain *)domain startWithMaxCallStackDepth:(NSNumber *)maxCallStackDepth callback:(void ( ^ ) ( id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:startWithMaxCallStackDepth:callback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDTimelineCommandDelegate/domain:stopWithCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDTimelineDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDTimelineDomain *)domain stopWithCallback:(void ( ^ ) ( id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:stopWithCallback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDTimelineCommandDelegate/domain:setIncludeMemoryDetailsWithEnabled:callback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDTimelineDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDTimelineDomain *)domain setIncludeMemoryDetailsWithEnabled:(NSNumber *)enabled callback:(void ( ^ ) ( id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:setIncludeMemoryDetailsWithEnabled:callback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDTimelineCommandDelegate/domain:supportsFrameInstrumentationWithCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDTimelineDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDTimelineDomain *)domain supportsFrameInstrumentationWithCallback:(void ( ^ ) ( NSNumber *result , id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:supportsFrameInstrumentationWithCallback:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

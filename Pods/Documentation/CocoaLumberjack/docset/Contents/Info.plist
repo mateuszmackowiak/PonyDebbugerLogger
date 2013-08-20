@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.cocoapods.cocoalumberjack.CocoaLumberjack-1.6.2</string>
+	<key>CFBundleName</key>
+	<string>CocoaLumberjack 1.6.2 Documentation</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	
+	
+	<key>DocSetDescription</key>
+	<string>A fast &amp; simple, yet powerful &amp; flexible logging framework for Mac and iOS.</string>
+	
+	<key>DocSetFeedName</key>
+	<string>CocoaLumberjack 1.6.2 Documentation</string>
+	
+	<key>DocSetMinimumXcodeVersion</key>
+	<string>3.0</string>
+	
+	<key>DashDocSetFamily</key>
+	<string>appledoc</string>
+	<key>DocSetPublisherIdentifier</key>
+	<string>org.cocoapods.cocoalumberjack.documentation</string>
+	<key>DocSetPublisherName</key>
+	<string>Robbie Hanson</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Robbie Hanson</string>
+</dict>
+</plist>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSOrderedSet+PDRuntimePropertyDescriptor.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSOrderedSet(PDRuntimePropertyDescriptor)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSOrderedSet+PDRuntimePropertyDescriptor.h</DeclaredIn>
+			
+			<NodeRef refid="117"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSOrderedSet(PDRuntimePropertyDescriptor)/PD_valueForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSOrderedSet+PDRuntimePropertyDescriptor.h</DeclaredIn>			
+			
+			<Declaration>- (id)PD_valueForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/PD_valueForKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSOrderedSet(PDRuntimePropertyDescriptor)/PD_objectAtIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSOrderedSet+PDRuntimePropertyDescriptor.h</DeclaredIn>			
+			
+			<Declaration>- (id)PD_objectAtIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/PD_objectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSOrderedSet(PDRuntimePropertyDescriptor)/PD_propertiesForPropertyDescriptors</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSOrderedSet+PDRuntimePropertyDescriptor.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)PD_propertiesForPropertyDescriptors</Declaration>
+			
+			
+			<Anchor>//api/name/PD_propertiesForPropertyDescriptors</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSOrderedSet(PDRuntimePropertyDescriptor)/PD_propertyDescriptorForPropertyObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSOrderedSet+PDRuntimePropertyDescriptor.h</DeclaredIn>			
+			
+			<Declaration>- (PDRuntimePropertyDescriptor *)PD_propertyDescriptorForPropertyObject:(NSObject *)property</Declaration>
+			
+			
+			<Anchor>//api/name/PD_propertyDescriptorForPropertyObject:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

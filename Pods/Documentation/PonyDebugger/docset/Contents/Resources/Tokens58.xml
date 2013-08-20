@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDIndexedDBKeyRange.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDIndexedDBKeyRange</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDIndexedDBTypes.h</DeclaredIn>
+			
+			<NodeRef refid="58"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDIndexedDBKeyRange/setLower:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDIndexedDBTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) PDIndexedDBKey *lower</Declaration>
+			
+			
+			<Anchor>//api/name/lower</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDIndexedDBKeyRange/lower</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDIndexedDBTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) PDIndexedDBKey *lower</Declaration>
+			
+			
+			<Anchor>//api/name/lower</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDIndexedDBKeyRange/setUpper:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDIndexedDBTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) PDIndexedDBKey *upper</Declaration>
+			
+			
+			<Anchor>//api/name/upper</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDIndexedDBKeyRange/upper</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDIndexedDBTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) PDIndexedDBKey *upper</Declaration>
+			
+			
+			<Anchor>//api/name/upper</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDIndexedDBKeyRange/setLowerOpen:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDIndexedDBTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *lowerOpen</Declaration>
+			
+			
+			<Anchor>//api/name/lowerOpen</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDIndexedDBKeyRange/lowerOpen</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDIndexedDBTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *lowerOpen</Declaration>
+			
+			
+			<Anchor>//api/name/lowerOpen</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDIndexedDBKeyRange/setUpperOpen:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDIndexedDBTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *upperOpen</Declaration>
+			
+			
+			<Anchor>//api/name/upperOpen</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDIndexedDBKeyRange/upperOpen</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDIndexedDBTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *upperOpen</Declaration>
+			
+			
+			<Anchor>//api/name/upperOpen</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDPageCookie.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDPageCookie</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageTypes.h</DeclaredIn>
+			
+			<NodeRef refid="82"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDPageCookie/setName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDPageCookie/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDPageCookie/setValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDPageCookie/value</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDPageCookie/setDomain:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *domain</Declaration>
+			
+			
+			<Anchor>//api/name/domain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDPageCookie/domain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *domain</Declaration>
+			
+			
+			<Anchor>//api/name/domain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDPageCookie/setPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *path</Declaration>
+			
+			
+			<Anchor>//api/name/path</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDPageCookie/path</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *path</Declaration>
+			
+			
+			<Anchor>//api/name/path</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDPageCookie/setExpires:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *expires</Declaration>
+			
+			
+			<Anchor>//api/name/expires</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDPageCookie/expires</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *expires</Declaration>
+			
+			
+			<Anchor>//api/name/expires</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDPageCookie/setSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDPageCookie/size</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDPageCookie/setHttpOnly:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *httpOnly</Declaration>
+			
+			
+			<Anchor>//api/name/httpOnly</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDPageCookie/httpOnly</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *httpOnly</Declaration>
+			
+			
+			<Anchor>//api/name/httpOnly</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDPageCookie/setSecure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *secure</Declaration>
+			
+			
+			<Anchor>//api/name/secure</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDPageCookie/secure</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *secure</Declaration>
+			
+			
+			<Anchor>//api/name/secure</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDPageCookie/setSession:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *session</Declaration>
+			
+			
+			<Anchor>//api/name/session</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDPageCookie/session</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *session</Declaration>
+			
+			
+			<Anchor>//api/name/session</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

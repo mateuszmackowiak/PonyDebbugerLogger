@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDDOMDomain.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDDOMDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMDomain.h</DeclaredIn>
+			
+			<NodeRef refid="31"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDOMDomain/setDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;PDDOMCommandDelegate,PDCommandDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDOMDomain/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;PDDOMCommandDelegate,PDCommandDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDOMDomain/documentUpdated</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)documentUpdated</Declaration>
+			
+			
+			<Anchor>//api/name/documentUpdated</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDOMDomain/setChildNodesWithParentId:nodes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)setChildNodesWithParentId:(NSNumber *)parentId nodes:(NSArray *)nodes</Declaration>
+			
+			
+			<Anchor>//api/name/setChildNodesWithParentId:nodes:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDOMDomain/attributeModifiedWithNodeId:name:value:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)attributeModifiedWithNodeId:(NSNumber *)nodeId name:(NSString *)name value:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/attributeModifiedWithNodeId:name:value:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDOMDomain/attributeRemovedWithNodeId:name:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)attributeRemovedWithNodeId:(NSNumber *)nodeId name:(NSString *)name</Declaration>
+			
+			
+			<Anchor>//api/name/attributeRemovedWithNodeId:name:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDOMDomain/inlineStyleInvalidatedWithNodeIds:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)inlineStyleInvalidatedWithNodeIds:(NSArray *)nodeIds</Declaration>
+			
+			
+			<Anchor>//api/name/inlineStyleInvalidatedWithNodeIds:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDOMDomain/characterDataModifiedWithNodeId:characterData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)characterDataModifiedWithNodeId:(NSNumber *)nodeId characterData:(NSString *)characterData</Declaration>
+			
+			
+			<Anchor>//api/name/characterDataModifiedWithNodeId:characterData:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDOMDomain/childNodeCountUpdatedWithNodeId:childNodeCount:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)childNodeCountUpdatedWithNodeId:(NSNumber *)nodeId childNodeCount:(NSNumber *)childNodeCount</Declaration>
+			
+			
+			<Anchor>//api/name/childNodeCountUpdatedWithNodeId:childNodeCount:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDOMDomain/childNodeInsertedWithParentNodeId:previousNodeId:node:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)childNodeInsertedWithParentNodeId:(NSNumber *)parentNodeId previousNodeId:(NSNumber *)previousNodeId node:(PDDOMNode *)node</Declaration>
+			
+			
+			<Anchor>//api/name/childNodeInsertedWithParentNodeId:previousNodeId:node:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDOMDomain/childNodeRemovedWithParentNodeId:nodeId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)childNodeRemovedWithParentNodeId:(NSNumber *)parentNodeId nodeId:(NSNumber *)nodeId</Declaration>
+			
+			
+			<Anchor>//api/name/childNodeRemovedWithParentNodeId:nodeId:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDOMDomain/shadowRootPushedWithHostId:root:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)shadowRootPushedWithHostId:(NSNumber *)hostId root:(PDDOMNode *)root</Declaration>
+			
+			
+			<Anchor>//api/name/shadowRootPushedWithHostId:root:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDOMDomain/shadowRootPoppedWithHostId:rootId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)shadowRootPoppedWithHostId:(NSNumber *)hostId rootId:(NSNumber *)rootId</Declaration>
+			
+			
+			<Anchor>//api/name/shadowRootPoppedWithHostId:rootId:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

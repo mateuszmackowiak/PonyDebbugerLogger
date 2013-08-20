@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/PDPageCommandDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/PDPageCommandDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>
+			
+			<NodeRef refid="134"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDPageCommandDelegate/domain:enableWithCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDPageDomain *)domain enableWithCallback:(void ( ^ ) ( id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:enableWithCallback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDPageCommandDelegate/domain:disableWithCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDPageDomain *)domain disableWithCallback:(void ( ^ ) ( id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:disableWithCallback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDPageCommandDelegate/domain:addScriptToEvaluateOnLoadWithScriptSource:callback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDPageDomain *)domain addScriptToEvaluateOnLoadWithScriptSource:(NSString *)scriptSource callback:(void ( ^ ) ( NSString *identifier , id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:addScriptToEvaluateOnLoadWithScriptSource:callback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDPageCommandDelegate/domain:removeScriptToEvaluateOnLoadWithIdentifier:callback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDPageDomain *)domain removeScriptToEvaluateOnLoadWithIdentifier:(NSString *)identifier callback:(void ( ^ ) ( id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:removeScriptToEvaluateOnLoadWithIdentifier:callback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDPageCommandDelegate/domain:reloadWithIgnoreCache:scriptToEvaluateOnLoad:callback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDPageDomain *)domain reloadWithIgnoreCache:(NSNumber *)ignoreCache scriptToEvaluateOnLoad:(NSString *)scriptToEvaluateOnLoad callback:(void ( ^ ) ( id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:reloadWithIgnoreCache:scriptToEvaluateOnLoad:callback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDPageCommandDelegate/domain:navigateWithUrl:callback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDPageDomain *)domain navigateWithUrl:(NSString *)url callback:(void ( ^ ) ( id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:navigateWithUrl:callback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDPageCommandDelegate/domain:getCookiesWithCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDPageDomain *)domain getCookiesWithCallback:(void ( ^ ) ( NSArray *cookies , NSString *cookiesString , id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:getCookiesWithCallback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDPageCommandDelegate/domain:deleteCookieWithCookieName:domain:callback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDPageDomain *)domain deleteCookieWithCookieName:(NSString *)cookieName domain:(NSString *)domain callback:(void ( ^ ) ( id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:deleteCookieWithCookieName:domain:callback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDPageCommandDelegate/domain:getResourceTreeWithCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDPageDomain *)domain getResourceTreeWithCallback:(void ( ^ ) ( PDPageFrameResourceTree *frameTree , id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:getResourceTreeWithCallback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDPageCommandDelegate/domain:getResourceContentWithFrameId:url:callback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDPageDomain *)domain getResourceContentWithFrameId:(NSString *)frameId url:(NSString *)url callback:(void ( ^ ) ( NSString *content , NSNumber *base64Encoded , id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:getResourceContentWithFrameId:url:callback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDPageCommandDelegate/domain:searchInResourceWithFrameId:url:query:caseSensitive:isRegex:callback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDPageDomain *)domain searchInResourceWithFrameId:(NSString *)frameId url:(NSString *)url query:(NSString *)query caseSensitive:(NSNumber *)caseSensitive isRegex:(NSNumber *)isRegex callback:(void ( ^ ) ( NSArray *result , id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:searchInResourceWithFrameId:url:query:caseSensitive:isRegex:callback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDPageCommandDelegate/domain:searchInResourcesWithText:caseSensitive:isRegex:callback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDPageDomain *)domain searchInResourcesWithText:(NSString *)text caseSensitive:(NSNumber *)caseSensitive isRegex:(NSNumber *)isRegex callback:(void ( ^ ) ( NSArray *result , id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:searchInResourcesWithText:caseSensitive:isRegex:callback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDPageCommandDelegate/domain:setDocumentContentWithFrameId:html:callback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDPageDomain *)domain setDocumentContentWithFrameId:(NSString *)frameId html:(NSString *)html callback:(void ( ^ ) ( id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:setDocumentContentWithFrameId:html:callback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDPageCommandDelegate/domain:canOverrideDeviceMetricsWithCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDPageDomain *)domain canOverrideDeviceMetricsWithCallback:(void ( ^ ) ( NSNumber *result , id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:canOverrideDeviceMetricsWithCallback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDPageCommandDelegate/domain:setDeviceMetricsOverrideWithWidth:height:fontScaleFactor:fitWindow:callback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDPageDomain *)domain setDeviceMetricsOverrideWithWidth:(NSNumber *)width height:(NSNumber *)height fontScaleFactor:(NSNumber *)fontScaleFactor fitWindow:(NSNumber *)fitWindow callback:(void ( ^ ) ( id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:setDeviceMetricsOverrideWithWidth:height:fontScaleFactor:fitWindow:callback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDPageCommandDelegate/domain:setShowPaintRectsWithResult:callback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDPageDomain *)domain setShowPaintRectsWithResult:(NSNumber *)result callback:(void ( ^ ) ( id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:setShowPaintRectsWithResult:callback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDPageCommandDelegate/domain:getScriptExecutionStatusWithCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDPageDomain *)domain getScriptExecutionStatusWithCallback:(void ( ^ ) ( NSString *result , id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:getScriptExecutionStatusWithCallback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDPageCommandDelegate/domain:setScriptExecutionDisabledWithValue:callback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDPageDomain *)domain setScriptExecutionDisabledWithValue:(NSNumber *)value callback:(void ( ^ ) ( id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:setScriptExecutionDisabledWithValue:callback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDPageCommandDelegate/domain:setGeolocationOverrideWithLatitude:longitude:accuracy:callback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDPageDomain *)domain setGeolocationOverrideWithLatitude:(NSNumber *)latitude longitude:(NSNumber *)longitude accuracy:(NSNumber *)accuracy callback:(void ( ^ ) ( id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:setGeolocationOverrideWithLatitude:longitude:accuracy:callback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDPageCommandDelegate/domain:clearGeolocationOverrideWithCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDPageDomain *)domain clearGeolocationOverrideWithCallback:(void ( ^ ) ( id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:clearGeolocationOverrideWithCallback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDPageCommandDelegate/domain:canOverrideGeolocationWithCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDPageDomain *)domain canOverrideGeolocationWithCallback:(void ( ^ ) ( NSNumber *result , id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:canOverrideGeolocationWithCallback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDPageCommandDelegate/domain:setDeviceOrientationOverrideWithAlpha:beta:gamma:callback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDPageDomain *)domain setDeviceOrientationOverrideWithAlpha:(NSNumber *)alpha beta:(NSNumber *)beta gamma:(NSNumber *)gamma callback:(void ( ^ ) ( id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:setDeviceOrientationOverrideWithAlpha:beta:gamma:callback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDPageCommandDelegate/domain:clearDeviceOrientationOverrideWithCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDPageDomain *)domain clearDeviceOrientationOverrideWithCallback:(void ( ^ ) ( id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:clearDeviceOrientationOverrideWithCallback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDPageCommandDelegate/domain:canOverrideDeviceOrientationWithCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDPageDomain *)domain canOverrideDeviceOrientationWithCallback:(void ( ^ ) ( NSNumber *result , id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:canOverrideDeviceOrientationWithCallback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PDPageCommandDelegate/domain:setTouchEmulationEnabledWithEnabled:callback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domain:(PDPageDomain *)domain setTouchEmulationEnabledWithEnabled:(NSNumber *)enabled callback:(void ( ^ ) ( id error ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/domain:setTouchEmulationEnabledWithEnabled:callback:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

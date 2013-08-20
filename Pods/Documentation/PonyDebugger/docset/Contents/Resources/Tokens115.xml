@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSObject+PDRuntimePropertyDescriptor.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSObject(PDRuntimePropertyDescriptor)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSObject+PDRuntimePropertyDescriptor.h</DeclaredIn>
+			
+			<NodeRef refid="115"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(PDRuntimePropertyDescriptor)/PD_remoteObjectRepresentationForObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSObject+PDRuntimePropertyDescriptor.h</DeclaredIn>			
+			
+			<Declaration>+ (PDRuntimeRemoteObject *)PD_remoteObjectRepresentationForObject:(id)object</Declaration>
+			
+			
+			<Anchor>//api/name/PD_remoteObjectRepresentationForObject:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(PDRuntimePropertyDescriptor)/PD_valueForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSObject+PDRuntimePropertyDescriptor.h</DeclaredIn>			
+			
+			<Declaration>- (id)PD_valueForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/PD_valueForKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(PDRuntimePropertyDescriptor)/PD_propertiesForPropertyDescriptors</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSObject+PDRuntimePropertyDescriptor.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)PD_propertiesForPropertyDescriptors</Declaration>
+			
+			
+			<Anchor>//api/name/PD_propertiesForPropertyDescriptors</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(PDRuntimePropertyDescriptor)/PD_propertyDescriptors</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSObject+PDRuntimePropertyDescriptor.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)PD_propertyDescriptors</Declaration>
+			
+			
+			<Anchor>//api/name/PD_propertyDescriptors</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(PDRuntimePropertyDescriptor)/PD_propertyDescriptorValueForSelector:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSObject+PDRuntimePropertyDescriptor.h</DeclaredIn>			
+			
+			<Declaration>- (PDRuntimeRemoteObject *)PD_propertyDescriptorValueForSelector:(SEL)selector</Declaration>
+			
+			
+			<Anchor>//api/name/PD_propertyDescriptorValueForSelector:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(PDRuntimePropertyDescriptor)/PD_propertyDescriptorValueForObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSObject+PDRuntimePropertyDescriptor.h</DeclaredIn>			
+			
+			<Declaration>- (PDRuntimeRemoteObject *)PD_propertyDescriptorValueForObject:(id)object</Declaration>
+			
+			
+			<Anchor>//api/name/PD_propertyDescriptorValueForObject:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(PDRuntimePropertyDescriptor)/PD_propertyDescriptorForPropertyObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSObject+PDRuntimePropertyDescriptor.h</DeclaredIn>			
+			
+			<Declaration>- (PDRuntimePropertyDescriptor *)PD_propertyDescriptorForPropertyObject:(NSObject *)property</Declaration>
+			
+			
+			<Anchor>//api/name/PD_propertyDescriptorForPropertyObject:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(PDRuntimePropertyDescriptor)/PD_propertyDescriptorForSelector:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSObject+PDRuntimePropertyDescriptor.h</DeclaredIn>			
+			
+			<Declaration>- (PDRuntimePropertyDescriptor *)PD_propertyDescriptorForSelector:(SEL)selector</Declaration>
+			
+			
+			<Anchor>//api/name/PD_propertyDescriptorForSelector:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(PDRuntimePropertyDescriptor)/PD_propertyDescriptorForPropertyName:property:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSObject+PDRuntimePropertyDescriptor.h</DeclaredIn>			
+			
+			<Declaration>- (PDRuntimePropertyDescriptor *)PD_propertyDescriptorForPropertyName:(NSString *)propertyName property:(objc_property_t)property</Declaration>
+			
+			
+			<Anchor>//api/name/PD_propertyDescriptorForPropertyName:property:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

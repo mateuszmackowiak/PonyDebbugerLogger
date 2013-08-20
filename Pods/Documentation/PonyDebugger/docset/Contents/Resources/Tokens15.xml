@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDCSSCSSStyleSheetHeader.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDCSSCSSStyleSheetHeader</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>
+			
+			<NodeRef refid="15"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDCSSCSSStyleSheetHeader/setStyleSheetId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *styleSheetId</Declaration>
+			
+			
+			<Anchor>//api/name/styleSheetId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDCSSCSSStyleSheetHeader/styleSheetId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *styleSheetId</Declaration>
+			
+			
+			<Anchor>//api/name/styleSheetId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDCSSCSSStyleSheetHeader/setFrameId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *frameId</Declaration>
+			
+			
+			<Anchor>//api/name/frameId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDCSSCSSStyleSheetHeader/frameId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *frameId</Declaration>
+			
+			
+			<Anchor>//api/name/frameId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDCSSCSSStyleSheetHeader/setSourceURL:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *sourceURL</Declaration>
+			
+			
+			<Anchor>//api/name/sourceURL</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDCSSCSSStyleSheetHeader/sourceURL</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *sourceURL</Declaration>
+			
+			
+			<Anchor>//api/name/sourceURL</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDCSSCSSStyleSheetHeader/setOrigin:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *origin</Declaration>
+			
+			
+			<Anchor>//api/name/origin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDCSSCSSStyleSheetHeader/origin</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *origin</Declaration>
+			
+			
+			<Anchor>//api/name/origin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDCSSCSSStyleSheetHeader/setTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDCSSCSSStyleSheetHeader/title</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDCSSCSSStyleSheetHeader/setDisabled:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *disabled</Declaration>
+			
+			
+			<Anchor>//api/name/disabled</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDCSSCSSStyleSheetHeader/disabled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDCSSTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *disabled</Declaration>
+			
+			
+			<Anchor>//api/name/disabled</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDDOMHighlightConfig.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDDOMHighlightConfig</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMTypes.h</DeclaredIn>
+			
+			<NodeRef refid="34"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDOMHighlightConfig/setShowInfo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *showInfo</Declaration>
+			
+			
+			<Anchor>//api/name/showInfo</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDOMHighlightConfig/showInfo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *showInfo</Declaration>
+			
+			
+			<Anchor>//api/name/showInfo</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDOMHighlightConfig/setContentColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) PDDOMRGBA *contentColor</Declaration>
+			
+			
+			<Anchor>//api/name/contentColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDOMHighlightConfig/contentColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) PDDOMRGBA *contentColor</Declaration>
+			
+			
+			<Anchor>//api/name/contentColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDOMHighlightConfig/setPaddingColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) PDDOMRGBA *paddingColor</Declaration>
+			
+			
+			<Anchor>//api/name/paddingColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDOMHighlightConfig/paddingColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) PDDOMRGBA *paddingColor</Declaration>
+			
+			
+			<Anchor>//api/name/paddingColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDOMHighlightConfig/setBorderColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) PDDOMRGBA *borderColor</Declaration>
+			
+			
+			<Anchor>//api/name/borderColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDOMHighlightConfig/borderColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) PDDOMRGBA *borderColor</Declaration>
+			
+			
+			<Anchor>//api/name/borderColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDOMHighlightConfig/setMarginColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) PDDOMRGBA *marginColor</Declaration>
+			
+			
+			<Anchor>//api/name/marginColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDOMHighlightConfig/marginColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDOMTypes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) PDDOMRGBA *marginColor</Declaration>
+			
+			
+			<Anchor>//api/name/marginColor</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

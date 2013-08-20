@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDPageDomain.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDPageDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>
+			
+			<NodeRef refid="83"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDPageDomain/setDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;PDPageCommandDelegate,PDCommandDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDPageDomain/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;PDPageCommandDelegate,PDCommandDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDPageDomain/domContentEventFiredWithTimestamp:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)domContentEventFiredWithTimestamp:(NSNumber *)timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/domContentEventFiredWithTimestamp:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDPageDomain/loadEventFiredWithTimestamp:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)loadEventFiredWithTimestamp:(NSNumber *)timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/loadEventFiredWithTimestamp:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDPageDomain/frameNavigatedWithFrame:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)frameNavigatedWithFrame:(PDPageFrame *)frame</Declaration>
+			
+			
+			<Anchor>//api/name/frameNavigatedWithFrame:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDPageDomain/frameDetachedWithFrameId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDPageDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)frameDetachedWithFrameId:(NSString *)frameId</Declaration>
+			
+			
+			<Anchor>//api/name/frameDetachedWithFrameId:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDDynamicDebuggerDomain.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDDynamicDebuggerDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDynamicDebuggerDomain.h</DeclaredIn>
+			
+			<NodeRef refid="48"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDynamicDebuggerDomain/setDebuggingServer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDynamicDebuggerDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign, readonly) PDDebugger *debuggingServer</Declaration>
+			
+			
+			<Anchor>//api/name/debuggingServer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDynamicDebuggerDomain/debuggingServer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDynamicDebuggerDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign, readonly) PDDebugger *debuggingServer</Declaration>
+			
+			
+			<Anchor>//api/name/debuggingServer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDynamicDebuggerDomain/setDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDynamicDebuggerDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;PDCommandDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDDynamicDebuggerDomain/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDynamicDebuggerDomain.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;PDCommandDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PDDynamicDebuggerDomain/domainName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDynamicDebuggerDomain.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)domainName</Declaration>
+			
+			
+			<Anchor>//api/name/domainName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDynamicDebuggerDomain/handleMethodWithName:parameters:responseCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDynamicDebuggerDomain.h</DeclaredIn>			
+			
+			<Declaration>- (void)handleMethodWithName:(NSString *)methodName parameters:(NSDictionary *)params responseCallback:(PDResponseCallback)responseCallback</Declaration>
+			
+			
+			<Anchor>//api/name/handleMethodWithName:parameters:responseCallback:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDDynamicDebuggerDomain/initWithDebuggingServer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDDynamicDebuggerDomain.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithDebuggingServer:(PDDebugger *)debuggingServer</Declaration>
+			
+			
+			<Anchor>//api/name/initWithDebuggingServer:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

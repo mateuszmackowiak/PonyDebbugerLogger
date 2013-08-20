@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PDConsoleDomainController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PDConsoleDomainController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDConsoleDomainController.h</DeclaredIn>
+			
+			<NodeRef refid="28"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDConsoleDomainController/setDomain:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDConsoleDomainController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) PDConsoleDomain *domain</Declaration>
+			
+			
+			<Anchor>//api/name/domain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PDConsoleDomainController/domain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDConsoleDomainController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) PDConsoleDomain *domain</Declaration>
+			
+			
+			<Anchor>//api/name/domain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PDConsoleDomainController/defaultInstance</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDConsoleDomainController.h</DeclaredIn>			
+			
+			<Declaration>+ (PDConsoleDomainController *)defaultInstance</Declaration>
+			
+			
+			<Anchor>//api/name/defaultInstance</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDConsoleDomainController/logWithArguments:severity:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDConsoleDomainController.h</DeclaredIn>			
+			
+			<Declaration>- (void)logWithArguments:(NSArray *)args severity:(NSString *)severity</Declaration>
+			
+			
+			<Anchor>//api/name/logWithArguments:severity:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PDConsoleDomainController/clear</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PDConsoleDomainController.h</DeclaredIn>			
+			
+			<Declaration>- (void)clear</Declaration>
+			
+			
+			<Anchor>//api/name/clear</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>
