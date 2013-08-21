@@ -1,2 +1,2 @@
 platform :ios, '6.0'
-pod 'PonyDebuggerLogger'
+pod 'PonyDebuggerLogger', :path => '~/Documents/projects/Xcode/PonyDebuggerLogger/'
