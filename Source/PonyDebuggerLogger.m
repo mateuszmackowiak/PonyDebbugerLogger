@@ -13,32 +13,25 @@
 #warning This file must be compiled with ARC. Use -fobjc-arc flag (or convert project to ARC).
 #endif
 
+@interface PonyDebuggerLogger ()
+@property (nonatomic, strong) PDConsoleDomainController* consoleDomainController;
+@end
+
 @implementation PonyDebuggerLogger
 
-static PonyDebuggerLogger * sharedInstance;
-
-+ (void) initialize {
-    static BOOL initialized = NO;
-    
-    if (!initialized) {
-        initialized = YES;
-        
-        sharedInstance = [[self alloc] init];
-        
-    }
++ (instancetype) sharedInstance {
+    static PonyDebuggerLogger *instance = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        instance = [[self alloc] init];
+    });
+    return instance;
 }
 
-+ (id) sharedInstance {
-    return sharedInstance;
-}
-
-- (id) init {
-    if (sharedInstance != nil) {
-        return nil;
-    }
-    
-    if (self = [super init]) {
-        
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        self.consoleDomainController = [PDConsoleDomainController defaultInstance];
     }
     return self;
 }
@@ -51,8 +44,8 @@ static PonyDebuggerLogger * sharedInstance;
     
     if (logMsg) {
         int flag = logMessage->logFlag;
-        [[PDConsoleDomainController defaultInstance] logWithArguments:@[logMsg]
-                                                             severity:[PonyDebuggerLogger logMessageTypeToString:flag]];
+        NSString* severity = [self logMessageTypeToString:flag];
+        [self.consoleDomainController logWithArguments:@[logMsg] severity:severity];
     }
 }
 
@@ -61,7 +54,7 @@ static PonyDebuggerLogger * sharedInstance;
 }
 
 
-+ (NSString *) logMessageTypeToString:(int)type {
+- (NSString *) logMessageTypeToString:(int)type {
     switch (type) {
         case LOG_FLAG_ERROR:
             return @"error";

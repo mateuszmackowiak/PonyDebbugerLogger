@@ -10,6 +10,6 @@
 
 @interface PonyDebuggerLogger : DDAbstractLogger
 
-+ (id) sharedInstance;
++ (instancetype) sharedInstance;
 
 @end
