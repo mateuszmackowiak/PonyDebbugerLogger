@@ -11,14 +11,13 @@ A bridge between [CocoaLumberjack](https://github.com/robbiehanson/CocoaLumberja
 ```ObjC
 #import "PonyDebuggerLogger.h"
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     PDDebugger * debugger = [PDDebugger defaultInstance];   
     [debugger connectToURL:[NSURL URLWithString:@"ws://localhost:9000/device"]];
     [debugger enableRemoteLogging];
     [DDLog addLogger:[PonyDebuggerLogger sharedInstance]];
 
-    DDLogCError(@"YAhoo");
+    DDLogError(@"YAhoo");
 }
 
 ```
@@ -27,12 +26,11 @@ A bridge between [CocoaLumberjack](https://github.com/robbiehanson/CocoaLumberja
 
 I recommended to use [CocoaPods](http://cocoapods.org/) as a way to get the library.
 
-Here's an example podfile that installs TestFlightLogger and its dependencies
+Here's an example podfile that installs PonyDebuggerLogger and its dependencies
 
 ### Podfile
 
 ```bash
-platform :ios, '4.0'
 
 pod 'PonyDebuggerLogger'
 
