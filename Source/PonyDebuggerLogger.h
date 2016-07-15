@@ -4,11 +4,8 @@
 //
 
 #import <CocoaLumberjack/CocoaLumberjack.h>
-@class PDConsoleDomainController;
 
 @interface PonyDebuggerLogger : DDAbstractLogger
-
-@property (nonatomic, strong) PDConsoleDomainController* consoleDomainController;
 
 + (instancetype) sharedInstance;
 

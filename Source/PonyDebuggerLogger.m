@@ -12,6 +12,8 @@
 
 @interface PonyDebuggerLogger ()
 
+@property (nonatomic, strong) PDConsoleDomainController* consoleDomainController;
+
 @end
 
 @implementation PonyDebuggerLogger

@@ -130,12 +130,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A3E44DA17C3EF6300EBF85D /* Build configuration list for PBXNativeTarget "PonyDebuggerLoggerTest" */;
 			buildPhases = (
-				29C098AA050B79ED330BED4F /* Check Pods Manifest.lock */,
+				29C098AA050B79ED330BED4F /* [CP] Check Pods Manifest.lock */,
 				9A3E44B017C3EF6300EBF85D /* Sources */,
 				9A3E44B117C3EF6300EBF85D /* Frameworks */,
 				9A3E44B217C3EF6300EBF85D /* Resources */,
-				83F9BD2ED9FE5DE1AE130A45 /* Embed Pods Frameworks */,
-				0C4F607FE7DE50EE92C3B578 /* Copy Pods Resources */,
+				83F9BD2ED9FE5DE1AE130A45 /* [CP] Embed Pods Frameworks */,
+				0C4F607FE7DE50EE92C3B578 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,14 +189,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0C4F607FE7DE50EE92C3B578 /* Copy Pods Resources */ = {
+		0C4F607FE7DE50EE92C3B578 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,14 +204,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-defaults-PonyDebuggerLoggerTest/Pods-defaults-PonyDebuggerLoggerTest-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		29C098AA050B79ED330BED4F /* Check Pods Manifest.lock */ = {
+		29C098AA050B79ED330BED4F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,14 +219,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		83F9BD2ED9FE5DE1AE130A45 /* Embed Pods Frameworks */ = {
+		83F9BD2ED9FE5DE1AE130A45 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,6 +336,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 406EB2500CBE3349677A8CDC /* Pods-defaults-PonyDebuggerLoggerTest.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PonyDebuggerLoggerTest/PonyDebuggerLoggerTest-Prefix.pch";
 				INFOPLIST_FILE = "PonyDebuggerLoggerTest/PonyDebuggerLoggerTest-Info.plist";
@@ -349,6 +350,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 58A9CFDE1C24CECAE488F67A /* Pods-defaults-PonyDebuggerLoggerTest.release.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PonyDebuggerLoggerTest/PonyDebuggerLoggerTest-Prefix.pch";
 				INFOPLIST_FILE = "PonyDebuggerLoggerTest/PonyDebuggerLoggerTest-Info.plist";
