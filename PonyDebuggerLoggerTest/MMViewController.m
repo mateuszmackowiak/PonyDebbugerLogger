@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	DDLogCError(@"YAhoo");
+	DDLogError(@"viewDidLoad");
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,20 +26,20 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)errorButtonTapped:(id)sender {
-    DDLogCError(@"Error button tapped");
+    DDLogError(@"Error button tapped");
 }
 
 - (IBAction)infoButtonTapped:(id)sender {
-    DDLogCInfo(@"Info button tapped");
+    DDLogInfo(@"Info button tapped");
 }
 
 
 - (IBAction)debugButtonTapped:(id)sender {
-    DDLogCVerbose(@"Debug button tapped");
+    DDLogVerbose(@"Debug button tapped");
 }
 
 - (IBAction)warnButtonTapped:(id)sender {
-    DDLogCWarn(@"Warning button tapped");
+    DDLogWarn(@"Warning button tapped");
 }
 
 @end

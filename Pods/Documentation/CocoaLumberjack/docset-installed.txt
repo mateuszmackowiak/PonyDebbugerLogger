@@ -1,4 +1,0 @@
-Documentation set was installed to Xcode!
-
-Path: /var/root/Library/Developer/Shared/Documentation/DocSets/org.cocoapods.cocoalumberjack.CocoaLumberjack-1.6.2.docset
-Time: 2013-08-20 18:44:59 +0000

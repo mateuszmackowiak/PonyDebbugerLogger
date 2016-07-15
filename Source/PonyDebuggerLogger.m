@@ -1,7 +1,4 @@
 //
-//  PonyDebuggerLogger.m
-//  PonyDebuggerLoggerTest
-//
 //  Created by Mateusz Mackowiak on 20.08.2013.
 //  Copyright (c) 2013 MateuszMackowiak. All rights reserved.
 //
@@ -14,7 +11,7 @@
 #endif
 
 @interface PonyDebuggerLogger ()
-@property (nonatomic, strong) PDConsoleDomainController* consoleDomainController;
+
 @end
 
 @implementation PonyDebuggerLogger
@@ -37,13 +34,13 @@
 }
 
 - (void) logMessage:(DDLogMessage *)logMessage {
-    NSString * logMsg = logMessage->logMsg;
+    NSString * logMsg = logMessage.message;
     
-    if (formatter)
-        logMsg = [formatter formatLogMessage:logMessage];
-    
+    if (_logFormatter) {
+        logMsg = [_logFormatter formatLogMessage:logMessage];
+    }
     if (logMsg) {
-        int flag = logMessage->logFlag;
+        DDLogFlag flag = logMessage.flag;
         NSString* severity = [self logMessageTypeToString:flag];
         [self.consoleDomainController logWithArguments:@[logMsg] severity:severity];
     }
@@ -54,13 +51,13 @@
 }
 
 
-- (NSString *) logMessageTypeToString:(int)type {
+- (NSString *) logMessageTypeToString:(DDLogFlag)type {
     switch (type) {
-        case LOG_FLAG_ERROR:
+        case DDLogFlagError:
             return @"error";
-        case LOG_FLAG_WARN:
+        case DDLogFlagWarning:
             return @"warn";
-        case LOG_FLAG_INFO:
+        case DDLogFlagInfo:
             return @"info";
         default:
             return @"debug";

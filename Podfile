@@ -1,2 +1,6 @@
-platform :ios, '6.0'
-pod 'PonyDebuggerLogger', :path => '~/Documents/projekty/Xcode/PonyDebbugerLogger/'
+platform :ios, '6.1'
+
+abstract_target 'defaults' do
+  pod 'PonyDebuggerLogger', :path => '.'
+  target 'PonyDebuggerLoggerTest'
+end
