@@ -13,15 +13,14 @@
 
 @implementation MMAppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    [self initLogger];
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    [self setupLogger];
     return YES;
 }
 
 
--(void)initLogger{
+-(void)setupLogger {
     PDDebugger * debugger = [PDDebugger defaultInstance];
     
     [debugger connectToURL:[NSURL URLWithString:@"ws://localhost:9000/device"]];

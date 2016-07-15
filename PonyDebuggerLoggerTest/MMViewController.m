@@ -14,17 +14,11 @@
 
 @implementation MMViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
 	DDLogError(@"viewDidLoad");
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 - (IBAction)errorButtonTapped:(id)sender {
     DDLogError(@"Error button tapped");
 }

@@ -16,8 +16,7 @@
 		9A3E44CA17C3EF6300EBF85D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A3E44C917C3EF6300EBF85D /* Default.png */; };
 		9A3E44CC17C3EF6300EBF85D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A3E44CB17C3EF6300EBF85D /* Default@2x.png */; };
 		9A3E44CE17C3EF6300EBF85D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A3E44CD17C3EF6300EBF85D /* Default-568h@2x.png */; };
-		9A3E44D117C3EF6300EBF85D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3E44CF17C3EF6300EBF85D /* MainStoryboard_iPhone.storyboard */; };
-		9A3E44D417C3EF6300EBF85D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3E44D217C3EF6300EBF85D /* MainStoryboard_iPad.storyboard */; };
+		9A3E44D417C3EF6300EBF85D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3E44D217C3EF6300EBF85D /* MainStoryboard.storyboard */; };
 		9A3E44D717C3EF6300EBF85D /* MMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3E44D617C3EF6300EBF85D /* MMViewController.m */; };
 		D7E111100E6A8AEF19C10AD7 /* libPods-defaults-PonyDebuggerLoggerTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B13D30B10C77727DA5526133 /* libPods-defaults-PonyDebuggerLoggerTest.a */; };
 /* End PBXBuildFile section */
@@ -38,8 +37,7 @@
 		9A3E44C917C3EF6300EBF85D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		9A3E44CB17C3EF6300EBF85D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		9A3E44CD17C3EF6300EBF85D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		9A3E44D017C3EF6300EBF85D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		9A3E44D317C3EF6300EBF85D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		9A3E44D317C3EF6300EBF85D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		9A3E44D517C3EF6300EBF85D /* MMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMViewController.h; sourceTree = "<group>"; };
 		9A3E44D617C3EF6300EBF85D /* MMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMViewController.m; sourceTree = "<group>"; };
 		B13D30B10C77727DA5526133 /* libPods-defaults-PonyDebuggerLoggerTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-defaults-PonyDebuggerLoggerTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,8 +92,7 @@
 			children = (
 				9A3E44C617C3EF6300EBF85D /* MMAppDelegate.h */,
 				9A3E44C717C3EF6300EBF85D /* MMAppDelegate.m */,
-				9A3E44CF17C3EF6300EBF85D /* MainStoryboard_iPhone.storyboard */,
-				9A3E44D217C3EF6300EBF85D /* MainStoryboard_iPad.storyboard */,
+				9A3E44D217C3EF6300EBF85D /* MainStoryboard.storyboard */,
 				9A3E44D517C3EF6300EBF85D /* MMViewController.h */,
 				9A3E44D617C3EF6300EBF85D /* MMViewController.m */,
 				9A3E44BE17C3EF6300EBF85D /* Supporting Files */,
@@ -185,8 +182,7 @@
 				9A3E44CA17C3EF6300EBF85D /* Default.png in Resources */,
 				9A3E44CC17C3EF6300EBF85D /* Default@2x.png in Resources */,
 				9A3E44CE17C3EF6300EBF85D /* Default-568h@2x.png in Resources */,
-				9A3E44D117C3EF6300EBF85D /* MainStoryboard_iPhone.storyboard in Resources */,
-				9A3E44D417C3EF6300EBF85D /* MainStoryboard_iPad.storyboard in Resources */,
+				9A3E44D417C3EF6300EBF85D /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,20 +258,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		9A3E44CF17C3EF6300EBF85D /* MainStoryboard_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9A3E44D017C3EF6300EBF85D /* en */,
-			);
-			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		9A3E44D217C3EF6300EBF85D /* MainStoryboard_iPad.storyboard */ = {
+		9A3E44D217C3EF6300EBF85D /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				9A3E44D317C3EF6300EBF85D /* en */,
 			);
-			name = MainStoryboard_iPad.storyboard;
+			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -299,6 +287,8 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PonyDebuggerLoggerTest/PonyDebuggerLoggerTest-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -329,6 +319,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PonyDebuggerLoggerTest/PonyDebuggerLoggerTest-Prefix.pch";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;

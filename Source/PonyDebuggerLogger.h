@@ -3,7 +3,7 @@
 //  Copyright (c) 2013 MateuszMackowiak. All rights reserved.
 //
 
-#import "DDLog.h"
+#import <CocoaLumberjack/CocoaLumberjack.h>
 @class PDConsoleDomainController;
 
 @interface PonyDebuggerLogger : DDAbstractLogger
